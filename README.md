@@ -1,27 +1,27 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-# Stream1 Frontend may2016 - Full Stack Web Developer Bootcamp (CodeInstitute)
+## SkylabCoders Academy - Full Stack Web Development Bootcamp @Summer2016
 
 ## Description ##
 
-This repository contains the presentation used in the Stream1 (_Frontend_) of the _Full Stack Web Developer Bootcamp_ done by [CodeInstitute](http://www.codeinstitute.net/) for _4 weeks_ from 1st February to 28th February in 2016.
+This repository contains the presentation used in the Full Stack Web Development Bootcamp done by [SkylabCoders Academy](http://www.skylabcoders.com/es/) for _9 weeks_ from 4th July to 9th September in 2016.
 
 ## Training Goals (Stream 1) ##
 
-Learn and practice all basic frontend knowledge so the students at the end of the stream are able to:
+Learn and practice all basic knowledge so the students at the end of the stream are able to:
 
 - Create semantic markup (_HTML5_)
 - Apply designs and effects to sites/apps (_CSS3_)
 - Create and apply _responsive designs_ (Mobile -> Tablet -> Desktop)
 - Add logic and behaviour (_Javascript_) to sites/apps
-- Apply UX (_User Experience_) concepts in projects. Creation of mockups.
 - Daily use of version control tools & services (_Git & GitHub_)
 - Understand and use popular tools to speed up developments (_Bootstrap_, _jQuery_)
-- Use plugins and libraries for several purposes (_D3.js_ and more)
-- Use frameworks (like _angular.js_) to create webapps
+- Use frameworks in the frontend (like _angular.js_) to create and structure webapps
 - Understand _Web Design_ and _Frontend_ concepts, tools, workflows and architectures.
 
 ## Contents ##
+
+### Frontend
 
 - Basic Tools (Sublime, Git, Github, Markdown, Command Line Tools)
 - **HTML5**
@@ -51,12 +51,18 @@ Learn and practice all basic frontend knowledge so the students at the end of th
     + Events
     + Canvas, Forms, ...
 - Useful Libraries for general purposes: **jQuery**.js
-- Useful Libraries for displaying data: **D3**.js
 - Useful Frameworks for creating apps: **angular**.js
+
+### Backend
+
+- Node.js
+- ES2015
+- Express
+- MongoDB
 
 ## Materials ##
 
-You can access to the presentation used in the training at the URL : [http://code-institute-org.github.io/stream1_frontend_may2016](http://code-institute-org.github.io/stream1_frontend_may2016)
+You can access to the presentation used in the training at the URL : 
 
 ## TO-DO ##
 
