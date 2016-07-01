@@ -35,10 +35,12 @@ $color-mongo: #449945;
 }
 
 .slide.exercise {
-		background: #272822;
+		background: url("../img/skylab-coders-logo-white.png") no-repeat top 0 right 25px;
+		background-size: 20%;
+		background-color: #272822;
 		color: #FFF;
 		&.todo {
-			background: #ea4335;
+			background-color: #ea4335;
 		}
 		* { color: #FFF;}
 }

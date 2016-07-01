@@ -62,7 +62,7 @@ Learn and practice all basic knowledge so the students at the end of the stream 
 
 ## Materials ##
 
-You can access to the presentation used in the training at the URL : https://skylabcoders.github.io/bootcamp-summer2016/
+You can access to the presentation used in the training at the URL : https://skylabcoders.github.io/bootcamp-summer2016
 
 ## TO-DO ##
 

@@ -14,10 +14,10 @@ module.exports = function(grunt) {
 			dest: 'index.html',
 			title: 'Frontend Stream1 Feb2016 - Code Institute',
 			styles: [
-				'http://fonts.googleapis.com/css?family=Lato',
-				'http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css',
+				'https://fonts.googleapis.com/css?family=Lato',
+				'https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css',
 				'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
-				'http://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css',
+				'https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css',
 				'css/styles.css',
 				'css/print.css'
 			],
