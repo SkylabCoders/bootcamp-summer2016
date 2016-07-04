@@ -56,10 +56,10 @@ by [JuanMa Garrido](#trainer)
   <li><span class="icon-calendar-empty"> [Bootstrap](#bootstrap)</li>
   <li><span class="icon-calendar-empty"> [jQuery](#jquery)</li>
   <li><span class="icon-calendar-empty"> [angular.js](#angular)</li>
-  <li><span class="icon-calendar-empty"> [Node](#)</li>
-  <li><span class="icon-calendar-empty"> [ES2015](#)</li>
-  <li><span class="icon-calendar-empty"> [Express](#)</li>
-  <li><span class="icon-calendar-empty"> [MongoDB](#)</li>
+  <li><span class="icon-calendar-empty"> [Node](#node)</li>
+  <li><span class="icon-calendar-empty"> [ES2015](#es2015)</li>
+  <li><span class="icon-calendar-empty"> [Express](#express)</li>
+  <li><span class="icon-calendar-empty"> [MongoDB](#mongo)</li>
   <li><span class="icon-calendar-empty"> [Projects](#projects)</li>
   
 </ul>
@@ -213,27 +213,30 @@ Complete the following step-by-step exercise to practice the git commands and wo
 
 <span class="fa fa-github-alt"></span> [Find interesting projects on GitHub to clone and fork](https://github.com/explore )  
 
-!SLIDE git exercise todo
+!SLIDE git exercise small
 
 ## <span class="icon-laptop"></span> Git practice
 
-Practice:
-- Create Project & Local Repository
-- Do some changes
-- Add changes to repo
-- Create remote repository 
-- Sync Changes
+Create a folder called `notes-bootcamp` and inside of it create a file named `README.md` containing 3 interesting ideas you have learned today and then:
 
+- initiliaze a git repository
+- `add` this new file to the repo
+- `commit` the change
+- add 2 more interesting ideas to the `README.md`
+- `add` this new file to staging
+- `commit` this new change
+- check the `log` of commits 
 
-!SLIDE git exercise todo
+!SLIDE git exercise
 
 ## <span class="icon-laptop"></span> Git practice
 
-Practice:
-- Create Remote Repo Github
-- Clone repo 
-- Changes & Commit 
-- Push Changes
+- Create a remote repo on github called `notes-bootcamp` 
+- Add this remote repo (`git remote add`) to your local repo
+- `push` your changes to the remote repo
+- add 4 more interesting ideas to the `README.md`
+- `add` & `commit`  your change to the local repo
+- sync w/ the remote repo (`push`ing your latest changes)
 
 
 !SLIDE git
@@ -1197,8 +1200,14 @@ Practice:
   <div>
 </section>
 
-## Stream1 Frontend May2016 
+## Web Development Bootcamp 
 ### **Node.js**
+
+!SLIDE node
+
+## Contents
+
+- [Node.js](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/)
 
 <!-- ######################## ES2015 ######################## --> 
 
@@ -1210,7 +1219,7 @@ Practice:
   <div>
 </section>
 
-## Stream1 Frontend May2016 
+## Web Development Bootcamp 
 ### **ES2015**
 
 
@@ -2033,7 +2042,7 @@ Do the following katas to assure the understanding of Promise
   <div>
 </section>
 
-## Stream1 Frontend May2016 
+## Web Development Bootcamp 
 ### **Express.js**
 
 
@@ -2047,8 +2056,39 @@ Do the following katas to assure the understanding of Promise
   <div>
 </section>
 
-## Stream1 Frontend May2016 
+## Web Development Bootcamp 
 ### **Mongo DB**
+
+!SLIDE mongo
+
+## Contents
+
+- [CRUD Operations](https://docs.mongodb.com/manual/crud/)
+
+!SLIDE mongo
+
+## Data Modeling
+
+- [Data Models](https://docs.mongodb.com/manual/core/data-modeling-introduction/)
+- [SQL vs MongoDB](http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650)
+- [Real life examples](http://es.slideshare.net/friedo/data-modeling-examples) | [Use Cases](https://docs.mongodb.com/ecosystem/use-cases/)
+
+!SLIDE mongo
+
+## [Mongoose](http://mongoosejs.com/) 
+
+* [Schema](http://learnmongodbthehardway.com/schema/chapter1/)
+  * [Basics](http://learnmongodbthehardway.com/schema/chapter2/)
+  * [Referencing schemas in properties](https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/)
+
+
+
+!SLIDE mongo
+
+## More resources for this Unit
+
+- [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
+
 
 <!-- ######################## (FRONTEND) PROJECTS ######################## --> 
 
@@ -2060,7 +2100,7 @@ Do the following katas to assure the understanding of Promise
   <div>
 </section>
  
-## Stream1 Frontend May2016 
+## Web Development Bootcamp 
 ### Frontend **Projects**
 
 !SLIDE #scrum-img projects
