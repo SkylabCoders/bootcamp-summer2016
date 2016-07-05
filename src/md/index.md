@@ -435,6 +435,13 @@ What will show this code in the `alert()`? Why?
 
 !SLIDE javascript exercise
 
+## <span class="icon-laptop"></span> Javascript Challenge 1** Extra
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/06-extra-exercises
+
+
+!SLIDE javascript exercise
+
 ## <span class="icon-laptop"></span> Javascript Challenge 2
 
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/02-more-steps
@@ -452,7 +459,7 @@ What will show this code in the `alert()`? Why?
 - [Functions Scope in depth](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
 - [Array Object and Higher Order Functions (Functional Programming)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects/arrays)
 - [Regular Expressions](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions)
-- [El valor de `this`](https://github.com/juanmaguitar/apuntes-javascript-avanzado/tree/master/markdown/this)
+- [El valor de `this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) [[1]](http://unschooled.org/2012/03/understanding-javascript-this/)
 
 !SLIDE javascript
 
