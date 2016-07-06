@@ -514,18 +514,18 @@ What will show this code in the `alert()`? Why?
 
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/02-more-steps
 
-
-!SLIDE javascript exercise
-
-## <span class="icon-laptop"></span> Javascript Challenge 2** Extra
-
-- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/07-super-extra-functions
-
 !SLIDE javascript exercise
 
 ## <span class="icon-laptop"></span> Javascript Challenge 3
 
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/03-and-more
+
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Javascript Challenge Functions
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/07-exercises-functions
+
 
 !SLIDE concepts
 
@@ -536,13 +536,33 @@ What will show this code in the `alert()`? Why?
   - [Array basic methods](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/06-global-objects/arrays#basic-methods-of-array)
   - [Functional programming w/ array higher order functions](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/06-global-objects/arrays#array-methods-as-higher-order-functions)
 
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Javascript Challenge Arrays
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/08-exercises-arrays
+
+
+!SLIDE concepts
+
+## <span class="icon-github"></span> Functional programming workflow
+
+Follow the steps on [this repository](https://github.com/juanmaguitar/functional-programming-sm-steps) to see the workflow of some functional programming code
+
+!SLIDE concepts exercise
+
+## <span class="icon-laptop"></span> Functional programming exercises
+
+Do the [exercises 1-27](http://reactivex.io/learnrx/) to practice functional programming
+
+
 !SLIDE javascript
 
-## Javascript Advanced
+## Javascript Extra
 
 - [Functions Scope in depth](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
 - [Regular Expressions](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions)
-- [El valor de `this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) [[1]](http://unschooled.org/2012/03/understanding-javascript-this/)
+
 
 !SLIDE javascript exercise
 
@@ -627,6 +647,21 @@ Group yourself in pairs and solve the challenges proposed at: http://mosaic.acad
 - Do the following kata by doing pair programming and applying TDD: https://github.com/juanmaguitar/exercises-katas-js/tree/master/PasswordValidation
 - Use Jasmine as test runner
 
+
+
+!SLIDE concepts exercise
+
+## <span class="icon-laptop"></span> KOAN Javascript-Jasmine
+
+Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to practice javascript concepts
+
+<!-- !SLIDE concepts exercise -->
+
+<!-- ## <span class="icon-laptop"></span> KOAN Javascript-Jasmine
+
+- [Koans solved](https://github.com/juanmaguitar/javascript-koans/tree/master/koans)
+- [Tests passing](http://juanmaguitar.github.io/javascript-koans/KoansRunner.html)
+ -->
 
 !SLIDE javascript no-bullet-list resources
 
