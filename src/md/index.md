@@ -293,8 +293,15 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
 - [Variables, Data Types and Operators](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/02-variables-data-types-operators)
 - [Conditions and Loops](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/03-conditions-loops)
 - [Functions (Predefined, Callback, Closures...)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/04-functions)
+  - [Closures Examples](https://msdn.microsoft.com/en-us/magazine/ff696765.aspx)
 - [Arrays and Objects (Constructors)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/05-arrays-objects)
 - [Global Objects (Object, Function, Array, Number, Boolean, Math and Date)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects)
+
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Closures practice
+
+Do the following exercises to practice closures [http://nathansjslessons.appspot.com/lesson?id=1000](http://nathansjslessons.appspot.com/lesson?id=1000)
 
 
 !SLIDE javascript
