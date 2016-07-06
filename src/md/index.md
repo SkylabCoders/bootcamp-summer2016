@@ -292,8 +292,23 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
 - [Clear Ideas, JS History, ECMAScript](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/01-clear-ideas)
 - [Variables, Data Types and Operators](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/02-variables-data-types-operators)
 - [Conditions and Loops](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/03-conditions-loops)
-- [Functions (Predefined, Callback, Closures...)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/04-functions)
-  - [Closures Examples](https://msdn.microsoft.com/en-us/magazine/ff696765.aspx)
+
+!SLIDE javascript
+
+## Javascript Functions
+
+- [Funciones](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions)
+  - [Estructura y Parametros](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#parameters)
+  - [Funciones pre-definidas](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#pre-defined-functions)
+  - [Scope de las funciones](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope)
+  - [Funciones Callback](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#callback-functions)
+  - [Closures](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#closures)
+    - [Closures Examples](https://msdn.microsoft.com/en-us/magazine/ff696765.aspx)
+
+!SLIDE javascript
+
+## Javascript Objects
+
 - [Arrays and Objects (Constructors)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/05-arrays-objects)
 - [Global Objects (Object, Function, Array, Number, Boolean, Math and Date)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects)
 
@@ -512,12 +527,20 @@ What will show this code in the `alert()`? Why?
 
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/03-and-more
 
+!SLIDE concepts
+
+## Javascript Arrays
+
+- [Arrays](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/05-arrays-objects#arrays)
+- [Array as an Object](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/06-global-objects#array)
+  - [Array basic methods](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/06-global-objects/arrays#basic-methods-of-array)
+  - [Functional programming w/ array higher order functions](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/06-global-objects/arrays#array-methods-as-higher-order-functions)
+
 !SLIDE javascript
 
 ## Javascript Advanced
 
 - [Functions Scope in depth](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
-- [Array Object and Higher Order Functions (Functional Programming)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects/arrays)
 - [Regular Expressions](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions)
 - [El valor de `this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) [[1]](http://unschooled.org/2012/03/understanding-javascript-this/)
 
