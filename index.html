@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&f0aaf2508112">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&f6383d95e14f">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?0c783121a2d0">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?08e195ac54a0">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?2ee36b7e3f3f">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?af0019570c40">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?53c9cfdaae99">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?5851eecdc38c">
 	
-		<link rel="stylesheet" href="css/styles.css?086869f70fdb">
+		<link rel="stylesheet" href="css/styles.css?f402fa830603">
 	
-		<link rel="stylesheet" href="css/print.css?2f3c71cfe048">
+		<link rel="stylesheet" href="css/print.css?f7c1fc2c6925">
 	
 </head>
 <body class="list">
@@ -365,10 +365,57 @@
 <li><a href="https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/01-clear-ideas">Clear Ideas, JS History, ECMAScript</a></li>
 <li><a href="https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/02-variables-data-types-operators">Variables, Data Types and Operators</a></li>
 <li><a href="https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/03-conditions-loops">Conditions and Loops</a></li>
-<li><a href="https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/04-functions">Functions (Predefined, Callback, Closures...)</a></li>
+<li><a href="https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/04-functions">Functions (Predefined, Callback, Closures...)</a><ul>
+<li><a href="https://msdn.microsoft.com/en-us/magazine/ff696765.aspx">Closures Examples</a></li>
+</ul>
+</li>
 <li><a href="https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/05-arrays-objects">Arrays and Objects (Constructors)</a></li>
 <li><a href="https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects">Global Objects (Object, Function, Array, Number, Boolean, Math and Date)</a></li>
 </ul>
+
+	</div></section>
+	
+	<section class="slide clear-ideas no-bullet-list smallcode concepts" ><div>
+		<pre><code>var mathy = function(x) {</code>
+<code>    return function (y) {</code>
+<code>        return function (z) {</code>
+<code>            return (x / y) - z;</code>
+<code>        }</code>
+<code>    }</code>
+<code>}</code></pre><p>¿Cómo hariamos la operación <code>(4 / 3) - 2</code> con este código en una linea?</p>
+<!-- http://jtfmumm.com/blog/2013/08/31/nested-higher-order-functions-in-javascript/ -->
+
+	</div></section>
+	
+	<section class="slide clear-ideas no-bullet-list smallcode concepts smaller" ><div>
+		<pre><code>var superGreeter = function(greeting) {</code>
+<code>    return function(place) {</code>
+<code>        return function(nickname) {</code>
+<code>            return function(name) {</code>
+<code>                return greeting + &#39;, &#39; + name + &#39;! Welcome to &#39; + place + &#39;, &#39; + nickname + &#39;.&#39;;</code>
+<code>            }</code>
+<code>        }</code>
+<code>    } </code>
+<code>};</code>
+<code>&shy;</code>
+<code>superGreeter(&#39;Hey&#39;)(&#39;Berlin&#39;)(&#39;old pal&#39;)(&#39;Hans&#39;)</code>
+<code>//&#39;Hey, Hans! Welcome to Berlin, old pal.&#39;</code>
+<code>&shy;</code>
+<code>hiParisBuddyGreeter = superGreeter(&#39;Hi&#39;)(&#39;Paris&#39;)(&#39;buddy&#39;);</code>
+<code>helloTokyoGreeter = superGreeter(&#39;Hello&#39;)(&#39;Tokyo&#39;);</code>
+<code>&shy;</code>
+<code>hiParisBuddyGreeter(&#39;Franz&#39;)</code>
+<code>//&#39;Hi, Franz! Welcome to Paris, buddy.&#39;</code>
+<code>helloTokyoGreeter(&#39;friend&#39;)</code>
+<code>//[Function]</code>
+<code>helloTokyoGreeter(&#39;friend&#39;)(&#39;Yuki&#39;)</code>
+<code>//&#39;Hello, Yuki! Welcome to Tokyo, friend.&#39;</code></pre><!-- http://jtfmumm.com/blog/2013/08/31/nested-higher-order-functions-in-javascript/ -->
+
+	</div></section>
+	
+	<section class="slide javascript exercise" ><div>
+		<h2><span class="icon-laptop"></span> Closures practice</h2>
+<p>Do the following exercises to practice closures <a href="http://nathansjslessons.appspot.com/lesson?id=1000">http://nathansjslessons.appspot.com/lesson?id=1000</a></p>
 
 	</div></section>
 	
@@ -2357,9 +2404,9 @@
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?e5cd11959aeb"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?1889a19f4942"></script>
 	
-		<script src="js/main.js?43d8b6d65870"></script>
+		<script src="js/main.js?06a28e8f3c08"></script>
 	
 
 	
