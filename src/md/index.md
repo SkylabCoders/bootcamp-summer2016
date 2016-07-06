@@ -446,6 +446,13 @@ What will show this code in the `alert()`? Why?
 
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/02-more-steps
 
+
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Javascript Challenge 2** Extra
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/07-super-extra-functions
+
 !SLIDE javascript exercise
 
 ## <span class="icon-laptop"></span> Javascript Challenge 3
@@ -460,6 +467,12 @@ What will show this code in the `alert()`? Why?
 - [Array Object and Higher Order Functions (Functional Programming)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects/arrays)
 - [Regular Expressions](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/08-regular-expressions)
 - [El valor de `this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) [[1]](http://unschooled.org/2012/03/understanding-javascript-this/)
+
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Javascript The First Parts
+
+Group yourself in pairs and solve the challenges proposed at: http://mosaic.academy/
 
 !SLIDE javascript
 
