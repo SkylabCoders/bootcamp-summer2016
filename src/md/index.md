@@ -297,6 +297,52 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
 - [Arrays and Objects (Constructors)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/05-arrays-objects)
 - [Global Objects (Object, Function, Array, Number, Boolean, Math and Date)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects)
 
+!SLIDE clear-ideas no-bullet-list smallcode concepts
+
+```
+var mathy = function(x) {
+    return function (y) {
+        return function (z) {
+            return (x / y) - z;
+        }
+    }
+}
+```
+
+¿Cómo hariamos la operación `(4 / 3) - 2` con este código en una linea?
+
+<!-- http://jtfmumm.com/blog/2013/08/31/nested-higher-order-functions-in-javascript/ -->
+
+!SLIDE clear-ideas no-bullet-list smallcode concepts smaller
+
+```
+var superGreeter = function(greeting) {
+    return function(place) {
+        return function(nickname) {
+            return function(name) {
+                return greeting + ', ' + name + '! Welcome to ' + place + ', ' + nickname + '.';
+            }
+        }
+    } 
+};
+
+superGreeter('Hey')('Berlin')('old pal')('Hans')
+//'Hey, Hans! Welcome to Berlin, old pal.'
+
+hiParisBuddyGreeter = superGreeter('Hi')('Paris')('buddy');
+helloTokyoGreeter = superGreeter('Hello')('Tokyo');
+
+hiParisBuddyGreeter('Franz')
+//'Hi, Franz! Welcome to Paris, buddy.'
+helloTokyoGreeter('friend')
+//[Function]
+helloTokyoGreeter('friend')('Yuki')
+//'Hello, Yuki! Welcome to Tokyo, friend.'
+
+```
+
+<!-- http://jtfmumm.com/blog/2013/08/31/nested-higher-order-functions-in-javascript/ -->
+
 !SLIDE javascript exercise
 
 ## <span class="icon-laptop"></span> Closures practice
