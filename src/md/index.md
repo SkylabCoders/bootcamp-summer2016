@@ -80,7 +80,7 @@ by [JuanMa Garrido](#trainer)
 ## Web Development Bootcamp 
 ### **Basic** Tools  
 
-!SLIDE git
+!SLIDE git theory
 
 ## Sublime Text
 
@@ -95,7 +95,7 @@ by [JuanMa Garrido](#trainer)
 
 <!-- ######################## CONTENTS ######################## --> 
 
-!SLIDE git
+!SLIDE git theory
 
 ## Command Line
 
@@ -111,14 +111,14 @@ by [JuanMa Garrido](#trainer)
 
 - [**Learn the Command Line** | codeCademy](https://www.codecademy.com/learn/learn-the-command-line)
 
-!SLIDE git
+!SLIDE git theory
 
 ## Markdown
 
 - [**Markdown**](https://daringfireball.net/projects/markdown/syntax)
   - [Markdown Guide](https://blog.ghost.org/markdown/) [[1]](http://markdown-guide.readthedocs.org/en/latest/basics.html)
 
-!SLIDE git
+!SLIDE git theory
 
 ## Developer Tools
 
@@ -132,7 +132,7 @@ by [JuanMa Garrido](#trainer)
 
 Do the following exercises to practice the markdown syntax [http://markdowntutorial.com/lesson/1/](http://markdowntutorial.com/lesson/1/)
 
-!SLIDE git install
+!SLIDE git install theory
 
 ## Git
 
@@ -159,7 +159,7 @@ Colors in the git commands
 - Execute this in your terminal : `git clone https://github.com/addyosmani/dotfiles.git && cd dotfiles && ./sync.sh`
 - More [dotfiles](https://dotfiles.github.io/)
 
-!SLIDE git
+!SLIDE git theory
 
 ## Git
 
@@ -173,7 +173,7 @@ Colors in the git commands
 
 ![staging-area-file-status](img/staging-area-file-status.png)
 
-!SLIDE git
+!SLIDE git theory
 
 ## Git
 
@@ -192,7 +192,7 @@ Colors in the git commands
 
 Complete the following step-by-step exercise to practice the git commands and workflow [https://try.github.io/levels/1/challenges/1](https://try.github.io/levels/1/challenges/1)
 
-!SLIDE git
+!SLIDE git theory
 
 ## Git
 
@@ -201,7 +201,7 @@ Complete the following step-by-step exercise to practice the git commands and wo
   - `git checkout master` => get back to the “current” state (latest commit) of the project
 
 
-!SLIDE git
+!SLIDE git theory
 
 ## GitHub
 
@@ -285,7 +285,7 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
 ## Web Development Bootcamp 
 ### **Javascript**
 
-!SLIDE javascript
+!SLIDE javascript theory
 
 ## Javascript Basics
 
@@ -293,7 +293,7 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
 - [Variables, Data Types and Operators](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/02-variables-data-types-operators)
 - [Conditions and Loops](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/03-conditions-loops)
 
-!SLIDE javascript
+!SLIDE javascript theory
 
 ## Javascript Functions
 
@@ -305,7 +305,7 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
   - [Closures](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#closures)
     - [Closures Examples](https://msdn.microsoft.com/en-us/magazine/ff696765.aspx)
 
-!SLIDE javascript
+!SLIDE javascript theory
 
 ## Javascript Objects
 
@@ -527,7 +527,7 @@ What will show this code in the `alert()`? Why?
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/07-exercises-functions
 
 
-!SLIDE concepts
+!SLIDE javascript  theory
 
 ## Javascript Arrays
 
@@ -543,20 +543,20 @@ What will show this code in the `alert()`? Why?
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/08-exercises-arrays
 
 
-!SLIDE concepts
+!SLIDE javascript
 
 ## <span class="icon-github"></span> Functional programming workflow
 
 Follow the steps on [this repository](https://github.com/juanmaguitar/functional-programming-sm-steps) to see the workflow of some functional programming code
 
-!SLIDE concepts exercise
+!SLIDE javascript exercise
 
 ## <span class="icon-laptop"></span> Functional programming exercises
 
 Do the [exercises 1-27](http://reactivex.io/learnrx/) to practice functional programming
 
 
-!SLIDE javascript
+!SLIDE javascript theory
 
 ## Javascript Extra
 
