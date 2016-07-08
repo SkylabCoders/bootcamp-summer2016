@@ -7,10 +7,8 @@ $color-html5: #f16529;
 $color-css3: #138dce;
 
 $color-js: #feda3e;
-$color-js-theory: lighten( $color-js, 35% );
 
 $color-git: #9cdaf1;
-$color-git-theory: lighten( $color-git, 21% );
 $color-jquery: #0769AD;
 $color-workflow: #F37D0B;
 $color-es2015: #323330;
@@ -408,7 +406,7 @@ h6 {
 .slide.git {
 	border-left: 10px solid $color-git;
 	&.theory {
-		background-color: $color-git-theory;
+		border: 10px solid $color-git;
 	}
 	.block-icons {
 		display:inline-block;
@@ -457,7 +455,7 @@ h6 {
 .slide.javascript {
 	border-left: 10px solid $color-js;
 	&.theory {
-		background-color: $color-js-theory;
+		border: 10px solid $color-js;
 	}
 }
 

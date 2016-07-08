@@ -302,7 +302,7 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
   - [Funciones pre-definidas](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#pre-defined-functions)
   - [Scope de las funciones](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#functions-scope)
   - [Funciones Callback](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#callback-functions)
-  - [Closures](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#closures)
+  - [Closures](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/04-functions#closures) [[1]](https://developer.mozilla.org/es/docs/Web/JavaScript/Closures) [[2]](http://www.variablenotfound.com/2012/10/closures-en-javascript-entiendelos-de.html) [[3]](https://jherax.wordpress.com/2015/02/13/javascript-closures/)
     - [Closures Examples](https://msdn.microsoft.com/en-us/magazine/ff696765.aspx)
 
 !SLIDE javascript theory
@@ -538,9 +538,27 @@ What will show this code in the `alert()`? Why?
 
 !SLIDE javascript exercise
 
+## <span class="icon-laptop"></span> Javascript Challenge Strings
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/09-exercises-strings
+
+!SLIDE javascript exercise
+
 ## <span class="icon-laptop"></span> Javascript Challenge Arrays
 
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/08-exercises-arrays
+
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Javascript Challenge Math
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/11-exercises-math
+
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Javascript Challenge Date
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/12-exercises-date
 
 
 !SLIDE javascript
@@ -645,23 +663,15 @@ Group yourself in pairs and solve the challenges proposed at: http://mosaic.acad
 
 - Group yourselves in pairs
 - Do the following kata by doing pair programming and applying TDD: https://github.com/juanmaguitar/exercises-katas-js/tree/master/PasswordValidation
-- Use Jasmine as test runner
+- Use Jasmine as test runn
 
 
-
-!SLIDE concepts exercise
+!SLIDE javascript exercise
 
 ## <span class="icon-laptop"></span> KOAN Javascript-Jasmine
 
 Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to practice javascript concepts
 
-<!-- !SLIDE concepts exercise -->
-
-<!-- ## <span class="icon-laptop"></span> KOAN Javascript-Jasmine
-
-- [Koans solved](https://github.com/juanmaguitar/javascript-koans/tree/master/koans)
-- [Tests passing](http://juanmaguitar.github.io/javascript-koans/KoansRunner.html)
- -->
 
 !SLIDE javascript no-bullet-list resources
 
