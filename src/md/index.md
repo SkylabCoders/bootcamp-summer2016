@@ -791,8 +791,7 @@ Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to pra
 - Create a new repository called `html5-layout-skylabcoders` on your github account and clone it on your machine
 - On that folder create `index.html`, `blog.html` & `contact.html` files 
 - Inside these files create the markup of the pages explained here https://github.com/juanmaguitar/html-layouts-exercises/tree/master/01-skylabcoders-web
-- Do different commits as you finish the different parts of the file
-- `push` your changes to the remote repository when you complete the markup
+- Do different commits & `push` your changes to the remote repository when you complete the markup
 
 
 !SLIDE html5
