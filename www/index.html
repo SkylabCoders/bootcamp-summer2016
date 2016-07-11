@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&38c9f2398f94">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&b33ba74087f6">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?956f55f08a54">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?c3b5475b9902">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?d781cb941457">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?44b7acfda982">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?c2644232cd57">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?25e5e16702d9">
 	
-		<link rel="stylesheet" href="css/styles.css?8efc7d6fe892">
+		<link rel="stylesheet" href="css/styles.css?5e9bf7951dd9">
 	
-		<link rel="stylesheet" href="css/print.css?05f7182e59f4">
+		<link rel="stylesheet" href="css/print.css?489f5f13ae2e">
 	
 </head>
 <body class="list">
@@ -396,7 +396,7 @@
 
 	</div></section>
 	
-	<section class="slide clear-ideas no-bullet-list smallcode concepts" ><div>
+	<section class="slide javascript no-bullet-list smallcode concepts" ><div>
 		<pre><code>var mathy = function(x) {</code>
 <code>    return function (y) {</code>
 <code>        return function (z) {</code>
@@ -408,7 +408,7 @@
 
 	</div></section>
 	
-	<section class="slide clear-ideas no-bullet-list smallcode concepts smaller" ><div>
+	<section class="slide javascript no-bullet-list smallcode concepts smaller" ><div>
 		<pre><code>var superGreeter = function(greeting) {</code>
 <code>    return function(place) {</code>
 <code>        return function(nickname) {</code>
@@ -443,6 +443,29 @@
 	<section class="slide javascript" ><div>
 		<h2>Working w/ Primitives vs Objects</h2>
 <img src="img/pass-by-reference-vs-pass-by-value-animation.gif" alt="Reference vs Value">
+
+	</div></section>
+	
+	<section class="slide javascript smallcode" ><div>
+		<pre><code class="language-javascript">&gt;&gt;&gt; var data = {</code>
+<code>  name: &quot;juanma&quot;,</code>
+<code>  location: &quot;barcelona&quot;</code>
+<code>}</code>
+<code>&shy;</code>
+<code>&gt;&gt;&gt; var age = 35;</code>
+<code>&shy;</code>
+<code>&gt;&gt;&gt; function setData( oData, nAge ) {</code>
+<code>  oData.location = &quot;dublin&quot;;</code>
+<code>  nAge = 40;</code>
+<code>  return oData.location + &quot; - &quot; + nAge;</code>
+<code>}</code>
+<code>&shy;</code>
+<code>&gt;&gt;&gt; setData(data, age)</code>
+<code>&quot;dublin - 40&quot;</code>
+<code>&gt;&gt; data</code>
+<code>Object {name: &quot;juanma&quot;, location: &quot;dublin&quot;}</code>
+<code>&gt;&gt; age</code>
+<code>35</code></pre>
 
 	</div></section>
 	
@@ -608,6 +631,14 @@
 		<h2><span class="icon-laptop"></span> Javascript Challenge Strings</h2>
 <ul>
 <li>Do the exercises suggested at <a href="https://github.com/juanmaguitar/exercises-javascript/tree/master/09-exercises-strings">https://github.com/juanmaguitar/exercises-javascript/tree/master/09-exercises-strings</a></li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide javascript exercise" ><div>
+		<h2><span class="icon-laptop"></span> Javascript Challenge Strings** Extra</h2>
+<ul>
+<li>Do the exercises suggested at <a href="https://github.com/juanmaguitar/exercises-javascript/tree/master/13-exercises-string-plus">https://github.com/juanmaguitar/exercises-javascript/tree/master/13-exercises-string-plus</a></li>
 </ul>
 
 	</div></section>
@@ -863,8 +894,15 @@
 
 	</div></section>
 	
-	<section class="slide html5 exercise todo" ><div>
+	<section class="slide html5 exercise" ><div>
 		<h2><span class="icon-laptop"></span> Layout Challenges</h2>
+<ul>
+<li>Create a new repository called <code>html5-layout-skylabcoders</code> on your github account and clone it on your machine</li>
+<li>On that folder create <code>index.html</code>, <code>blog.html</code> &amp; <code>contact.html</code> files </li>
+<li>Inside these files create the markup of the pages explained here <a href="https://github.com/juanmaguitar/html-layouts-exercises/tree/master/01-skylabcoders-web">https://github.com/juanmaguitar/html-layouts-exercises/tree/master/01-skylabcoders-web</a></li>
+<li>Do different commits as you finish the different parts of the file</li>
+<li><code>push</code> your changes to the remote repository when you complete the markup</li>
+</ul>
 
 	</div></section>
 	
@@ -1488,6 +1526,10 @@
 </li>
 <li><a href="https://daveceddia.com/convert-scope-to-controlleras/"><code>controllerAs</code></a></li>
 <li><a href="https://github.com/johnpapa/angular-styleguide"><strong>Angular Style Guide</strong></a> </li>
+<li>Testing Angular<ul>
+<li><a href="http://orizens.com/wp/topics/setup-karma-for-testing-angular-1-x-components-with-es2015-browserify/">Karma, Browserify &amp; ES2015</a></li>
+</ul>
+</li>
 </ul>
 
 	</div></section>
@@ -2398,6 +2440,14 @@
 
 <h2>Web Development Bootcamp</h2>
 <h3><strong>Express.js</strong></h3>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2>Express Middleware</h2>
+<ul>
+<li><a href="http://evanhahn.com/express-dot-static-deep-dive/">static middleware</a></li>
+</ul>
 <!-- ######################## MONGO DB ######################## --> 
 
 	</div></section>
@@ -2486,9 +2536,9 @@
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?bd8960c32875"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?1682e1c78ea8"></script>
 	
-		<script src="js/main.js?ae6a78be2abc"></script>
+		<script src="js/main.js?9e054b90e867"></script>
 	
 
 	

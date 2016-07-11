@@ -312,7 +312,7 @@ Create a folder called `notes-bootcamp` and inside of it create a file named `RE
 - [Arrays and Objects (Constructors)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/05-arrays-objects)
 - [Global Objects (Object, Function, Array, Number, Boolean, Math and Date)](https://github.com/juanmaguitar/javascript-notes/blob/master/markdown-en/06-global-objects)
 
-!SLIDE clear-ideas no-bullet-list smallcode concepts
+!SLIDE javascript no-bullet-list smallcode concepts
 
 ```
 var mathy = function(x) {
@@ -328,7 +328,7 @@ var mathy = function(x) {
 
 <!-- http://jtfmumm.com/blog/2013/08/31/nested-higher-order-functions-in-javascript/ -->
 
-!SLIDE clear-ideas no-bullet-list smallcode concepts smaller
+!SLIDE javascript no-bullet-list smallcode concepts smaller
 
 ```
 var superGreeter = function(greeting) {
@@ -370,6 +370,31 @@ Do the following exercises to practice closures [http://nathansjslessons.appspot
 ## Working w/ Primitives vs Objects
 
 ![Reference vs Value](img/pass-by-reference-vs-pass-by-value-animation.gif)
+
+
+!SLIDE javascript smallcode
+
+```javascript
+>>> var data = {
+  name: "juanma",
+  location: "barcelona"
+}
+
+>>> var age = 35;
+
+>>> function setData( oData, nAge ) {
+  oData.location = "dublin";
+  nAge = 40;
+  return oData.location + " - " + nAge;
+}
+
+>>> setData(data, age)
+"dublin - 40"
+>> data
+Object {name: "juanma", location: "dublin"}
+>> age
+35
+```
 
 
 !SLIDE javascript smallcode
@@ -541,6 +566,12 @@ What will show this code in the `alert()`? Why?
 ## <span class="icon-laptop"></span> Javascript Challenge Strings
 
 - Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/09-exercises-strings
+
+!SLIDE javascript exercise
+
+## <span class="icon-laptop"></span> Javascript Challenge Strings** Extra
+
+- Do the exercises suggested at https://github.com/juanmaguitar/exercises-javascript/tree/master/13-exercises-string-plus
 
 !SLIDE javascript exercise
 
@@ -753,10 +784,15 @@ Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to pra
 - `push` your changes to the remote repository when you complete the markup
 
 
-!SLIDE html5 exercise todo
+!SLIDE html5 exercise
 
 ## <span class="icon-laptop"></span> Layout Challenges
 
+- Create a new repository called `html5-layout-skylabcoders` on your github account and clone it on your machine
+- On that folder create `index.html`, `blog.html` & `contact.html` files 
+- Inside these files create the markup of the pages explained here https://github.com/juanmaguitar/html-layouts-exercises/tree/master/01-skylabcoders-web
+- Do different commits as you finish the different parts of the file
+- `push` your changes to the remote repository when you complete the markup
 
 
 !SLIDE html5
@@ -1277,6 +1313,8 @@ _Useful resources for working on responsive design & bootstrap projects_
   - [Starter](https://github.com/preboot/angular-webpack)
 - [`controllerAs`](https://daveceddia.com/convert-scope-to-controlleras/)
 - [**Angular Style Guide**](https://github.com/johnpapa/angular-styleguide) 
+- Testing Angular
+  + [Karma, Browserify & ES2015](http://orizens.com/wp/topics/setup-karma-for-testing-angular-1-x-components-with-es2015-browserify/)
 
 !SLIDE angular
 
@@ -2186,6 +2224,11 @@ Do the following katas to assure the understanding of Promise
 ## Web Development Bootcamp 
 ### **Express.js**
 
+!SLIDE express
+
+## Express Middleware
+
+ - [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
 
 <!-- ######################## MONGO DB ######################## --> 
 
