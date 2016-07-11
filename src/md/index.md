@@ -881,7 +881,7 @@ Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to pra
 
 
 
-!SLIDE css3
+!SLIDE css3 exercise
 
 ## <span class="icon-laptop"></span> CSS3 Selectors
 
@@ -913,16 +913,6 @@ See boxes w/ your own eyes
    border: 1px solid red !important;
 }
 ```
-
-!SLIDE css3 exercise todo
-
-## <span class="icon-laptop"></span> Box Model Challenges
-
-
-!SLIDE css3  exercise todo
-
-## <span class="icon-laptop"></span> Positioning Challenges
-
 
 
 !SLIDE css3
@@ -998,6 +988,7 @@ Choose a partner and do the following exercise online (in pairs) to practice Fle
 - [**Learn to Code HTML & CSS**](http://learn.shayhowe.com/html-css/)
 - [**Learn to Code Advanced HTML & CSS**](http://learn.shayhowe.com/advanced-html-css/)
 - [Flexbox without flexbox](https://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox)
+- [CSS Demos](http://www.cssplay.co.uk/layouts/)
 
 !SLIDE css3
 
@@ -1010,29 +1001,22 @@ Choose a partner and do the following exercise online (in pairs) to practice Fle
 - [to mark brackets](https://packagecontrol.io/packages/BracketHighlighter) | [to show colors](https://packagecontrol.io/packages/Color%20Highlighter)
 - [to write random content](https://packagecontrol.io/packages/Random%20Everything)
 
-!SLIDE css3 small exercise
+!SLIDE css3 exercise
 
-## <span class="icon-laptop"></span> Extra CSS3 Challenges *
+## <span class="icon-laptop"></span> HTML5+CSS3 Challenges
 
-- Download the `CSS3-challenges` from [here](https://github.com/juanmaguitar/CSS3-challenges/archive/master.zip) and unzip it under the name of `CSS3-challenges` in your _projects_ folder
-- Go inside `CSS3-challenges` and initialize the local git repo (`git init`)
-- CREATE a repository in your GitHub account called `CSS3-challenges`
-- Connect your local repository w/ your remote repository (`git remote add <your-repository-url>`)
-- Do ALL the challenges **02 to 16**
-- Do different commits as you finish the different parts of the challenges
-- `push` your changes to your remote respository
+- Fork and Clone the repo https://github.com/juanmaguitar/html5-css3-challengeshtml5-css3-challenges
+- Do the exercises suggested
+- Do different commits & `push` your changes to the remote repository when you complete the markup
+
 
 !SLIDE css3 small exercise
 
-## <span class="icon-laptop"></span> Extra HTML5 CSS3 Challenges *
+## <span class="icon-laptop"></span> CSS3 Challenges
 
-- Download the `html5-css3-extra-challenges` from [here](https://github.com/Code-Institute-Org/html5-css3-extra-challenges/archive/master.zip) and unzip it under the name of `html5-css3-extra-challenges` in your _projects_ folder
-- Go inside `html5-css3-extra-challenges` and initialize the local git repo (`git init`)
-- CREATE a repository in your GitHub account called `html5-css3-extra-challenges`
-- Connect your local repository w/ your remote repository (`git remote add <your-repository-url>`)
-- Do the challenges
-- Commit your changes and sync them w/ your remote repository from time to time
-
+- Fork and Clone the repo https://github.com/juanmaguitar/CSS3-challenges/
+- Do the exercises suggested
+- Do different commits & `push` your changes to the remote repository when you complete the markup
 
 <!-- ######################## BOOTSTRAP ######################## --> 
 
