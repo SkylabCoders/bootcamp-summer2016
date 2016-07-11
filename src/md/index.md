@@ -784,16 +784,6 @@ Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to pra
 - `push` your changes to the remote repository when you complete the markup
 
 
-!SLIDE html5 exercise
-
-## <span class="icon-laptop"></span> Layout Challenges
-
-- Create a new repository called `html5-layout-skylabcoders` on your github account and clone it on your machine
-- On that folder create `index.html`, `blog.html` & `contact.html` files 
-- Inside these files create the markup of the pages explained here https://github.com/juanmaguitar/html-layouts-exercises/tree/master/01-skylabcoders-web
-- Do different commits & `push` your changes to the remote repository when you complete the markup
-
-
 !SLIDE html5
 
 ## Semantic Forms
@@ -804,11 +794,6 @@ Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to pra
   + [The native widgets | mdn](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets)
 - [Form Validation](http://www.html5-tutorials.org/form-validation/introduction/)
 - [Forms | Dive into HTML5](http://diveintohtml5.info/forms.html)
-
-!SLIDE html5 exercise todo
-
-## <span class="icon-laptop"></span> Form Challenges
-
 
 !SLIDE html5
 
@@ -822,9 +807,15 @@ Do the following [KOAN](https://github.com/mrdavidlaing/javascript-koans) to pra
   - [HTML5 Audio](http://html5doctor.com/html5-audio-the-state-of-play/)
     - [Demo Audio Basic (jsFiddle)](http://jsfiddle.net/lastrose/vkMqR/)
 
-!SLIDE html5 exercise todo
 
-## <span class="icon-laptop"></span> Media Challenges
+!SLIDE html5 exercise
+
+## <span class="icon-laptop"></span> Layout Challenges
+
+- Create a new repository called `html5-layout-skylabcoders` on your github account and clone it on your machine
+- On that folder create `index.html`, `blog.html` & `contact.html` files 
+- Inside these files create the markup of the pages explained here https://github.com/juanmaguitar/html-layouts-exercises/tree/master/01-skylabcoders-web
+- Do different commits & `push` your changes to the remote repository when you complete the markup
 
 
 !SLIDE html5
