@@ -1238,7 +1238,11 @@ _Useful resources for working on responsive design & bootstrap projects_
 - [Public APIs](https://www.publicapis.com/)
 - [APIs marketplace](https://market.mashape.com/explore)
 
+!SLIDE jquery
 
+## Public API's
+
+- [Random User Generator](https://randomuser.me/)
 
 <!-- ######################## ANGULAR ######################## --> 
 
@@ -1342,25 +1346,6 @@ Practice:
 ## <span class="icon-laptop"></span> Challenge: Angular Spotify API
 
 - Take the finished version of the Spotify API app done w/ jquery and transform it into an angular app
-
-<!-- ######################## NODE.JS ######################## --> 
-
-!SLIDE #node coverSession node
-
-<section class="logos">
-  <div class="box">
-    ![Node Logo](img/nodejs-icon.svg)
-  <div>
-</section>
-
-## Web Development Bootcamp 
-### **Node.js**
-
-!SLIDE node
-
-## Contents
-
-- [Node.js](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/)
 
 <!-- ######################## ES2015 ######################## --> 
 
@@ -2184,6 +2169,30 @@ Do the following katas to assure the understanding of Promise
 - [Scratch JS (chrome plugin)](https://chrome.google.com/webstore/detail/scratch-js/alploljligeomonipppgaahpkenfnfkn)
 - [Promises](https://www.promisejs.org/)
 
+<!-- ######################## NODE.JS ######################## --> 
+
+!SLIDE #node coverSession node
+
+<section class="logos">
+  <div class="box">
+    ![Node Logo](img/nodejs-icon.svg)
+  <div>
+</section>
+
+## Web Development Bootcamp 
+### **Node.js**
+
+!SLIDE node
+
+## Contents
+
+- [Node.js](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/)
+
+!SLIDE node
+
+## Resources for this Unit  
+
+- [Course w/ Exercises](https://openclassrooms.com/courses/ultra-fast-applications-using-node-js)
 
 <!-- ######################## EXPRESS.JS ######################## --> 
 
@@ -2221,6 +2230,7 @@ Do the following katas to assure the understanding of Promise
 
 ## Contents
 
+- [First Steps](http://michelebusta.com/the-little-things-5-initialize-a-local-mongo-db/)
 - [CRUD Operations](https://docs.mongodb.com/manual/crud/)
 
 !SLIDE mongo
@@ -2246,6 +2256,13 @@ Do the following katas to assure the understanding of Promise
 ## More resources for this Unit
 
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
+
+!SLIDE mongo
+
+## MEAN Stack
+
+- [Exercise: CRUD App](https://www.airpair.com/javascript/complete-expressjs-nodejs-mongodb-crud-skeleton)
+
 
 
 <!-- ######################## (FRONTEND) PROJECTS ######################## --> 
