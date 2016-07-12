@@ -1005,12 +1005,12 @@ Choose a partner and do the following exercise online (in pairs) to practice Fle
 
 ## <span class="icon-laptop"></span> HTML5+CSS3 Challenges
 
-- Fork and Clone the repo https://github.com/juanmaguitar/html5-css3-challengeshtml5-css3-challenges
+- Fork and Clone the repo https://github.com/juanmaguitar/html5-css3-challenges
 - Do the exercises suggested
 - Do different commits & `push` your changes to the remote repository when you complete the markup
 
 
-!SLIDE css3 small exercise
+!SLIDE css3 exercise
 
 ## <span class="icon-laptop"></span> CSS3 Challenges
 
