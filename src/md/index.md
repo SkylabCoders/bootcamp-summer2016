@@ -930,6 +930,15 @@ See boxes w/ your own eyes
 
 !SLIDE css3
 
+## Flexbox
+
+<br/>
+> The main idea behind the flex layout is to @@give the container the ability to alter its items@@ (width, height and order) @@to best fill the available space@@
+<br/><br/>
+> A flex container @@expands items to fill available free space@@, or @@shrinks them to prevent overflow@@.
+
+!SLIDE css3
+
 ![flexbox](img/flexbox.png)
 
 !SLIDE css3 exercise
