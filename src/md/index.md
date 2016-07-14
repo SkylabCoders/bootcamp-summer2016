@@ -1104,6 +1104,16 @@ Choose a partner and do the following exercises online (in pairs) to practice Bo
 
 !SLIDE bootstrap exercise
 
+## <span class="icon-laptop"></span> Bootstrap Site Exercise
+
+- Create a repo in GitHub called `portfolio`
+- Clone that repo in your machine
+- Do the exercise suggested at: https://github.com/juanmaguitar/bootstrap-exercises/tree/master/02-portfolio
+- Commit yout changes and sync them w/ your remote repo
+
+
+!SLIDE bootstrap exercise
+
 ## <span class="icon-laptop"></span> Extra Bootstrap Challenges *
 
 - Do the foollowing codeCademy course that will guide through the process of creating a full website: https://www.codecademy.com/skills/make-a-website
