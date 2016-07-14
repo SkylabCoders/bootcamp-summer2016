@@ -27,6 +27,8 @@ $color-node: #8cc84b;
 $color-express: #30a2ff;
 $color-mongo: #449945;
 
+$color-sass: #c6538c;
+
 #scrum-img {
 	div { padding: 0; margin: 0; }
 	img {
@@ -340,6 +342,10 @@ h6 {
 
 }
 
+.slide.sass {
+	border-left: 10px solid $color-sass;
+}
+
 .slide.mongo {
 	border-left: 10px solid $color-mongo;
 }
@@ -509,6 +515,35 @@ h6 {
 
 
 .coverSession {
+
+		&.sass {
+
+		background: url("../img/skylab-coders-logo-white.png") no-repeat scroll right 310px top 300px  $color-sass;
+		background-size: 30%;
+
+		img[alt="sass logo"] {
+			width: 240px;
+    	left: -5px;
+	    top: 0;
+	    position: absolute;
+		}
+		.box {
+			top: 180px;
+			left: 70px;
+		}
+		h2 {
+			color: #FFF;
+		}
+		h3 {
+			top: 410px;
+    left: 53px;
+			width: 240px;
+			text-align: center;
+			line-height: 51px;
+		}
+	}
+
+
 
 	&.es2015 {
 

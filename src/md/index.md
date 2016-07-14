@@ -1133,6 +1133,46 @@ _Useful resources for working on responsive design & bootstrap projects_
   + [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh)
 
 
+<!-- ######################## SASS ######################## --> 
+
+!SLIDE #sass coverSession sass
+
+<section class="logos">
+  <div class="box">
+    ![sass logo](img/logo-sass.svg)
+  <div>
+</section>
+
+## Web Development Bootcamp 
+### **Sass**
+
+!SLIDE sass
+
+## [Sass](http://sass-lang.com/)
+
+- How to work w/ it 
+  - Software ( [Koala](http://koala-app.com/) | [Scout](https://mhs.github.io/scout-app/) )
+  - Tasks Runners ( [Grunt](http://ryanchristiani.com/getting-started-with-grunt-and-sass/) | [Gulp](http://ryanchristiani.com/getting-started-with-gulp-and-sass/) |[ Webpack](http://eng.localytics.com/faster-sass-builds-with-webpack/) )
+  - [Tools](https://www.sitepoint.com/my-favorite-sass-tools/) [[1]](http://noeticforce.com/best-sass-tools-for-modern-web-design)
+    - [Online](http://www.sassmeister.com/) [[1]](http://codepen.io/pen/) [[2]](http://sass.js.org/)
+
+!SLIDE sass
+
+## Contents 
+
+- Nested [Selectors](https://gist.github.com/blackfalcon/5480140#nesting-your-selectors), [Properties](https://gist.github.com/blackfalcon/5480140#nested-properties)
+  - [Redefining parent](https://gist.github.com/blackfalcon/5480140#redefining-the-parent-selector-wnested-selectors)
+- [Variables](https://gist.github.com/blackfalcon/5480140#using-variables)
+- [`@extend`](https://gist.github.com/blackfalcon/5480140#extending-classes)
+- [placeholders](http://thesassway.com/intermediate/understanding-placeholder-selectors)
+- [mixins](https://gist.github.com/blackfalcon/5480140#mixins)
+
+!SLIDE sass
+
+## Resources for this unit
+
+- [A newbie's guide](https://speakerdeck.com/anotheruiguy/sass-101-a-newbs-guide)
+
 
 <!-- ######################## JQUERY ######################## --> 
 
