@@ -1093,9 +1093,14 @@ Choose a partner and do the following exercises online (in pairs) to practice Bo
 - Do exercises from [Use Responsive Design with Bootstrap Fluid Containers](https://www.freecodecamp.com/challenges/use-responsive-design-with-bootstrap-fluid-containers) to [Use Comments to Clarify Code](https://www.freecodecamp.com/challenges/use-comments-to-clarify-code)
 
 
-!SLIDE bootstrap exercise todo
+!SLIDE bootstrap exercise
 
-## <span class="icon-laptop"></span> Bootstrap Challenges
+## <span class="icon-laptop"></span> Bootstrap Site Exercise
+
+- Create a repo in GitHub called `photoapp-website`
+- Clone that repo in your machine
+- Do the exercise suggested at: https://github.com/juanmaguitar/bootstrap-exercises/tree/master/01-photoapp-website
+- Commit yout changes and sync them w/ your remote repo
 
 !SLIDE bootstrap exercise
 
