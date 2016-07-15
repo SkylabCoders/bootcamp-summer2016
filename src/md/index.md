@@ -948,16 +948,6 @@ See boxes w/ your own eyes
 Choose a partner and do the following exercise online (in pairs) to practice Flexbox: http://flexboxfroggy.com/
 
 
-!SLIDE css3  exercise todo
-
-## <span class="icon-laptop"></span> Media Query Challenges
-
-
-!SLIDE css3  exercise todo
-
-## <span class="icon-laptop"></span> Flexbox Challenges
-
-
 
 !SLIDE css3
 
@@ -969,11 +959,6 @@ Choose a partner and do the following exercise online (in pairs) to practice Fle
 - [**Gradients**](http://css3files.com/gradient/) [[1]](https://css-tricks.com/css3-gradients/) _([Examples](https://css-tricks.com/examples/CSS3Gradient/) [[1]](http://demo.hongkiat.com/css3-linear-gradient/) [[2]](http://demo.hongkiat.com/css3-repeating-gradients/))_
 - [**Transformations**](http://learn.shayhowe.com/advanced-html-css/css-transforms/) [[1]](http://css3files.com/transform/) [[2]](https://css-tricks.com/almanac/properties/t/transform/) _([Examples](http://desandro.github.io/3dtransforms/))_
 - [**Transitions & Animations**](http://learn.shayhowe.com/advanced-html-css/transitions-animations/) [[1]](http://css3files.com/transition/) [[2]](http://www.leemunroe.com/css3-animations/) _([Example](http://www.impressivewebs.com/demo-files/css3-animated-scene/))_
-
-!SLIDE css3 exercise todo
-
-## <span class="icon-laptop"></span> CSS Effects Challenges
-
 
 !SLIDE css3
 
@@ -1117,10 +1102,6 @@ Choose a partner and do the following exercises online (in pairs) to practice Bo
 ## <span class="icon-laptop"></span> Extra Bootstrap Challenges *
 
 - Do the foollowing codeCademy course that will guide through the process of creating a full website: https://www.codecademy.com/skills/make-a-website
-
-!SLIDE bootstrap exercise todo
-
-## <span class="icon-laptop"></span> Bootstrap Teams Challenge
 
 !SLIDE bootstrap 
 
