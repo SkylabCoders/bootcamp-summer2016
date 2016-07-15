@@ -1150,13 +1150,19 @@ _Useful resources for working on responsive design & bootstrap projects_
   + [placeholders](http://thesassway.com/intermediate/understanding-placeholder-selectors)
   + [mixins](https://gist.github.com/blackfalcon/5480140#mixins)
 
+!SLIDE bootstrap exercise
+
+## <span class="icon-laptop"></span> SASS Exercises
+
+- Do the exercises suggested at https://github.com/juanmaguitar/sass-exercises
+
 !SLIDE sass
 
 ## Resources for this unit
 
 - [A newbie's guide](https://speakerdeck.com/anotheruiguy/sass-101-a-newbs-guide)
 - [Getting Sassy with CSS](http://www.sassshop.com/)
-1
+
 <!-- ######################## JQUERY ######################## --> 
 
 !SLIDE #jquery coverSession jquery
