@@ -1163,17 +1163,19 @@ _Useful resources for working on responsive design & bootstrap projects_
 - Nested [Selectors](https://gist.github.com/blackfalcon/5480140#nesting-your-selectors), [Properties](https://gist.github.com/blackfalcon/5480140#nested-properties)
   - [Redefining parent](https://gist.github.com/blackfalcon/5480140#redefining-the-parent-selector-wnested-selectors)
 - [Variables](https://gist.github.com/blackfalcon/5480140#using-variables)
-- [`@extend`](https://gist.github.com/blackfalcon/5480140#extending-classes)
-- [placeholders](http://thesassway.com/intermediate/understanding-placeholder-selectors)
-- [mixins](https://gist.github.com/blackfalcon/5480140#mixins)
+
+- `extend` (placeholders) and `include` (mixins) [[1]](http://krasimirtsonev.com/blog/article/SASS-mixins-extends-and-placeholders-differences-use-cases) [[2]](http://www.ombushop.com/blog/diseno-web/mixins-vs-herencia-en-sass.html)
+  + [`@extend`](https://gist.github.com/blackfalcon/5480140#extending-classes)
+  + [placeholders](http://thesassway.com/intermediate/understanding-placeholder-selectors)
+  + [mixins](https://gist.github.com/blackfalcon/5480140#mixins)
 
 !SLIDE sass
 
 ## Resources for this unit
 
 - [A newbie's guide](https://speakerdeck.com/anotheruiguy/sass-101-a-newbs-guide)
-
-
+- [Getting Sassy with CSS](http://www.sassshop.com/)
+1
 <!-- ######################## JQUERY ######################## --> 
 
 !SLIDE #jquery coverSession jquery
