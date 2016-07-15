@@ -1150,11 +1150,17 @@ _Useful resources for working on responsive design & bootstrap projects_
   + [placeholders](http://thesassway.com/intermediate/understanding-placeholder-selectors)
   + [mixins](https://gist.github.com/blackfalcon/5480140#mixins)
 
-!SLIDE bootstrap exercise
+!SLIDE sass exercise
 
 ## <span class="icon-laptop"></span> SASS Exercises
 
 - Do the exercises suggested at https://github.com/juanmaguitar/sass-exercises
+
+!SLIDE sass exercise
+
+## <span class="icon-laptop"></span> SASS NodeSchool Kata
+
+- Do the coding exercises suggested at the NodeSchool workshop: https://github.com/claudiopro/learn-sass
 
 !SLIDE sass
 
