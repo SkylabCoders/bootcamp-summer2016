@@ -1221,10 +1221,11 @@ _Useful resources for working on responsive design & bootstrap projects_
   - [Events delegation](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/12-events#events-delegation)
   - [jQuery events](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/12-events#jquery-events) 
   
-!SLIDE jquery exercise todo
+!SLIDE jquery exercise
 
-## <span class="icon-laptop"></span> jQuery Challenge
+## <span class="icon-laptop"></span> jQuery Practice
 
+Group yourself in pairs an do the following exercises http://jqexercise.droppages.com/
 
 !SLIDE jquery exercise
 
@@ -2271,6 +2272,12 @@ Do the following katas to assure the understanding of Promise
 ## Express Middleware
 
  - [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
+
+!SLIDE express exercise
+
+## <span class="icon-laptop"></span> Express NodeSchool Kata
+
+- Do the coding exercises suggested at the NodeSchool workshop: https://github.com/azat-co/expressworks
 
 <!-- ######################## MONGO DB ######################## --> 
 
