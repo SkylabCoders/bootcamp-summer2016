@@ -1221,7 +1221,8 @@ _Useful resources for working on responsive design & bootstrap projects_
   - [Events delegation](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/12-events#events-delegation)
   - [jQuery events](https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/12-events#jquery-events) 
   
-!SLIDE jquery exercise
+!SLIDE jquery
+   exercise
 
 ## <span class="icon-laptop"></span> jQuery Practice
 
@@ -1264,6 +1265,13 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 ## <span class="icon-laptop"></span> Challenge: Spotify API
 
 - Do the following app with jQuery and the Spotify API: https://github.com/juanmaguitar/exercises-javascript/tree/master/04-jquery-spotify-API
+
+
+!SLIDE jquery exercise
+
+## <span class="icon-laptop"></span> Challenge: Random User Cards
+
+- Do the following app with jQuery: https://github.com/juanmaguitar/exercises-javascript/tree/master/14-random-user
 
 
 !SLIDE jquery
@@ -1357,6 +1365,7 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 !SLIDE angular
 
 ## More resources for this Unit
+
 
 - [Sites made w/ angular](https://www.madewithangular.com/#/)
 - Angular [Examples](https://github.com/curran/screencasts/tree/gh-pages/introToAngular#examples) & [Cheatsheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
