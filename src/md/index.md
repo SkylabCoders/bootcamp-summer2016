@@ -1273,6 +1273,11 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 
 - Do the following app with jQuery: https://github.com/juanmaguitar/exercises-javascript/tree/master/14-random-user
 
+!SLIDE jquery exercise
+
+## <span class="icon-laptop"></span> Challenge: Clock
+
+- Do the following app with jQuery and Bootstrap: https://github.com/juanmaguitar/exercises-javascript/tree/master/16-clock-timezone
 
 !SLIDE jquery
 
