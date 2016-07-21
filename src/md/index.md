@@ -1339,6 +1339,7 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
   - $scope, Controllers, Templates, Filters
   - Routing
   - API calls | Services
+    - [$http](https://www.sitepoint.com/api-calls-angularjs-http-service/) | [$http recipe](http://fdietz.github.io/recipes-with-angular-js/consuming-external-services/requesting-json-data-with-ajax.html)
   
 !SLIDE angular
 
@@ -1372,6 +1373,7 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 ## More resources for this Unit
 
 
+- [Angular recipes](http://fdietz.github.io/recipes-with-angular-js/index.html)
 - [Sites made w/ angular](https://www.madewithangular.com/#/)
 - Angular [Examples](https://github.com/curran/screencasts/tree/gh-pages/introToAngular#examples) & [Cheatsheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
 - [AngularJS-Learning](https://github.com/jmcunningham/AngularJS-Learning) [[1]](http://stackoverflow.com/a/17363901)
