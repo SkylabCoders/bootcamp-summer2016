@@ -1389,30 +1389,17 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 
 !SLIDE angular exercise
 
+## <span class="icon-laptop"></span> Angular Exercises
+
+Do the exercises suggested at: https://github.com/juanmaguitar/angular-exercises
+
+
+!SLIDE angular exercise
+
 ## <span class="icon-laptop"></span> Challenge: Angular phoneCat
 
 - Do (on your own) the angular app **phoneCat** by following the steps explained at: https://docs.angularjs.org/tutorial
 - Try to also do the _Experiments_ suggested (but only those that are not related to testing)
-
-!SLIDE angular exercise todo
-
-## <span class="icon-laptop"></span> Challenge: Angular
-
-Practice:
-- `ng-app`
-- models
-- controllers
-- views
-- native directives (`ng-repeat`, `filter`...)
-
-!SLIDE angular exercise todo
-
-## <span class="icon-laptop"></span> Challenge: Angular (advanced)
-
-Practice:
-- services / factories
-- directives
-- archirecture?
 
 
 !SLIDE angular exercise
