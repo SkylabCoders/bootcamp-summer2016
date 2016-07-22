@@ -1368,6 +1368,12 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 - Testing Angular
   + [Karma, Browserify & ES2015](http://orizens.com/wp/topics/setup-karma-for-testing-angular-1-x-components-with-es2015-browserify/)
 
+!SLIDE angular exercise
+
+## <span class="icon-laptop"></span> Challenge: Movies App
+
+- Do the following app with Angular and Bootstrap: https://github.com/juanmaguitar/exercises-javascript/tree/master/17-angular-movies
+
 !SLIDE angular
 
 ## More resources for this Unit
