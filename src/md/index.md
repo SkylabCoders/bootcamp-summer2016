@@ -2255,13 +2255,59 @@ Do the following katas to assure the understanding of Promise
 
 ## Contents
 
-- [Node.js](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/)
+- [Node.js](https://nodejs.org/en/)
+  - [Nodemon](http://nodemon.io/)
+- [Modules w/ CommonJS](https://nodejs.org/docs/latest/api/modules.html)
+  - [Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/) | [JS Modules](https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
+  - [`module.exports` & `exports`](https://www.sitepoint.com/understanding-module-exports-exports-node-js/) [[1]](https://datafull.co/p/cual-es-el-proposito-de-moduleexports-de-nodejs-y-como-usarlo)
+  - [Modular apps w/ Node & Express](https://vimeo.com/56166857)
+- `package.json`
+- [`response` & `request`](http://codehero.co/nodejs-y-express-peticiones-y-respuestas/) [[1]](https://meanoob.wordpress.com/2015/02/08/el-objeto-request-peticion-y-responserespuesta/)
+  + [Response codes](https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP)
 
 !SLIDE node
 
+## Contents
+
+- [Cookies w/ Express](https://www.codementor.io/nodejs/tutorial/cookie-management-in-express-js) _client & server_
+  - [`res.cookie`](http://expressjs.com/en/api.html#res.cookie) & [`req.cookies`](http://expressjs.com/en/api.html#req.cookies)
+  - [Example](http://code.runnable.com/UTlPPF-f2W1TAAET/how-to-use-cookies-in-express-for-node-js) [[1]](http://stackoverflow.com/questions/16209145/how-to-set-cookie-in-node-js-using-express-framework)
+
+- [Sessions w/ express](http://blog.modulus.io/nodejs-and-express-sessions) _only server_
+  -  [`express-session`](https://github.com/expressjs/session) [[1]](https://codeforgeek.com/2014/09/manage-session-using-node-js-express-4/)
+  - [`client-sessions`](https://github.com/mozilla/node-client-sessions) [[1]](https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions)
+
+
+!SLIDE node
+
+## Postman
+
+- [**Postman**](https://www.getpostman.com/)
+  - [Sending Requests](https://www.getpostman.com/docs/requests)
+    -  `x-www-form-urlencoded` is default
+    -  `form-data` for non-ASCII text or large binary data
+
+!SLIDE node smallcode
+
+## Postman
+
+```
+POST /users HTTP/1.1
+Host: localhost:3000
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+Postman-Token: 9b1e66e2-0e5d-ed60-1a5f-9d9d936e9f4e
+
+username=juanma
+```
+
+!SLIDE node 
+
 ## Resources for this Unit  
 
+- [Getting started](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/) 
 - [Course w/ Exercises](https://openclassrooms.com/courses/ultra-fast-applications-using-node-js)
+- [Node & Express](http://codehero.co/nodejs-y-express-instalacion-e-iniciacion/)
 
 <!-- ######################## EXPRESS.JS ######################## --> 
 
@@ -2278,9 +2324,24 @@ Do the following katas to assure the understanding of Promise
 
 !SLIDE express
 
+## Contents
+
+ - [Obtener POST con express](https://datafull.co/p/como-obtener-consulta-post-en-nodejs-express)
+
+!SLIDE express
+
 ## Express Middleware
 
- - [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
+- [Using Middleware](http://expressjs.com/es/guide/using-middleware.html)
+- [List middlewares](https://expressjs.com/en/resources/middleware.html)
+  - [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
+
+
+!SLIDE express exercise
+
+## <span class="icon-laptop"></span> Simple Site w/ Express 
+
+Create the site w/ Express explained at: http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus
 
 !SLIDE express exercise
 
@@ -2323,13 +2384,13 @@ Do the following katas to assure the understanding of Promise
 * [Schema](http://learnmongodbthehardway.com/schema/chapter1/)
   * [Basics](http://learnmongodbthehardway.com/schema/chapter2/)
   * [Referencing schemas in properties](https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/)
-
-
+  * [Methods](http://mongoosejs.com/docs/2.7.x/docs/methods-statics.html)
 
 !SLIDE mongo
 
 ## More resources for this Unit
 
+- [MongoDb Tutorial](http://codehero.co/series/mongodb-desde-cero.html)
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
 
 !SLIDE mongo
