@@ -2261,9 +2261,32 @@ Do the following katas to assure the understanding of Promise
   - [Module Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/) | [JS Modules](https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
   - [`module.exports` & `exports`](https://www.sitepoint.com/understanding-module-exports-exports-node-js/) [[1]](https://datafull.co/p/cual-es-el-proposito-de-moduleexports-de-nodejs-y-como-usarlo)
   - [Modular apps w/ Node & Express](https://vimeo.com/56166857)
-- `package.json`
+
+
+!SLIDE node
+
+## Contents
+
+- [Modules Node](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/modulos/intro-modulos.md)
+  + [w/ `require`](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/modulos/modulos-node-required.md)
+  + [wo/ `require`](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/modulos/modulos-node-notRequired.md)
+
 - [`response` & `request`](http://codehero.co/nodejs-y-express-peticiones-y-respuestas/) [[1]](https://meanoob.wordpress.com/2015/02/08/el-objeto-request-peticion-y-responserespuesta/)
   + [Response codes](https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP)
+
+
+!SLIDE node
+
+## Contents
+
+- [Streams](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/intro-streams.md)
+  - [Anatomia streams](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/streams.md)
+
+!SLIDE node exercise
+
+## <span class="icon-laptop"></span> Node exercises
+
+Do the exercises suggested at: https://github.com/juanmaguitar/js-server-exercises/tree/master/node-exercises
 
 !SLIDE node
 
