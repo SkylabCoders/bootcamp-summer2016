@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&db58624022c2">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&f9f515263ac3">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?aa11aa04d0d3">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?482860812d53">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?feb33447035b">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?6214ee60cdf1">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?16d4c9a966d6">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?bd063aeccf97">
 	
-		<link rel="stylesheet" href="css/styles.css?1532c012f565">
+		<link rel="stylesheet" href="css/styles.css?2a488978cc01">
 	
-		<link rel="stylesheet" href="css/print.css?e6da4d14c9d7">
+		<link rel="stylesheet" href="css/print.css?3acb584739c7">
 	
 </head>
 <body class="list">
@@ -2500,15 +2500,76 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<section class="slide node" ><div>
 		<h2>Contents</h2>
 <ul>
-<li><a href="https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/">Node.js</a></li>
+<li><a href="https://nodejs.org/en/">Node.js</a><ul>
+<li><a href="http://nodemon.io/">Nodemon</a></li>
+</ul>
+</li>
+<li><a href="https://nodejs.org/docs/latest/api/modules.html">Modules w/ CommonJS</a><ul>
+<li><a href="https://darrenderidder.github.io/talks/ModulePatterns/#/">Module Patterns</a> | <a href="https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc">JS Modules</a></li>
+<li><a href="https://www.sitepoint.com/understanding-module-exports-exports-node-js/"><code>module.exports</code> &amp; <code>exports</code></a> <a href="https://datafull.co/p/cual-es-el-proposito-de-moduleexports-de-nodejs-y-como-usarlo">[1]</a></li>
+<li><a href="https://vimeo.com/56166857">Modular apps w/ Node &amp; Express</a></li>
+</ul>
+</li>
+<li><code>package.json</code></li>
+<li><a href="http://codehero.co/nodejs-y-express-peticiones-y-respuestas/"><code>response</code> &amp; <code>request</code></a> <a href="https://meanoob.wordpress.com/2015/02/08/el-objeto-request-peticion-y-responserespuesta/">[1]</a><ul>
+<li><a href="https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP">Response codes</a></li>
+</ul>
+</li>
 </ul>
 
 	</div></section>
 	
 	<section class="slide node" ><div>
+		<h2>Contents</h2>
+<ul>
+<li><p><a href="https://www.codementor.io/nodejs/tutorial/cookie-management-in-express-js">Cookies w/ Express</a> <em>client &amp; server</em></p>
+<ul>
+<li><a href="http://expressjs.com/en/api.html#res.cookie"><code>res.cookie</code></a> &amp; <a href="http://expressjs.com/en/api.html#req.cookies"><code>req.cookies</code></a></li>
+<li><a href="http://code.runnable.com/UTlPPF-f2W1TAAET/how-to-use-cookies-in-express-for-node-js">Example</a> <a href="http://stackoverflow.com/questions/16209145/how-to-set-cookie-in-node-js-using-express-framework">[1]</a></li>
+</ul>
+</li>
+<li><p><a href="http://blog.modulus.io/nodejs-and-express-sessions">Sessions w/ express</a> <em>only server</em></p>
+<ul>
+<li><a href="https://github.com/expressjs/session"><code>express-session</code></a> <a href="https://codeforgeek.com/2014/09/manage-session-using-node-js-express-4/">[1]</a></li>
+<li><a href="https://github.com/mozilla/node-client-sessions"><code>client-sessions</code></a> <a href="https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions">[1]</a></li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide node" ><div>
+		<h2>Postman</h2>
+<ul>
+<li><a href="https://www.getpostman.com/"><strong>Postman</strong></a><ul>
+<li><a href="https://www.getpostman.com/docs/requests">Sending Requests</a><ul>
+<li><code>x-www-form-urlencoded</code> is default</li>
+<li><code>form-data</code> for non-ASCII text or large binary data</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide node smallcode" ><div>
+		<h2>Postman</h2>
+<pre><code>POST /users HTTP/1.1</code>
+<code>Host: localhost:3000</code>
+<code>Content-Type: application/x-www-form-urlencoded</code>
+<code>Cache-Control: no-cache</code>
+<code>Postman-Token: 9b1e66e2-0e5d-ed60-1a5f-9d9d936e9f4e</code>
+<code>&shy;</code>
+<code>username=juanma</code></pre>
+	</div></section>
+	
+	<section class="slide node" ><div>
 		<h2>Resources for this Unit</h2>
 <ul>
+<li><a href="https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/">Getting started</a> </li>
 <li><a href="https://openclassrooms.com/courses/ultra-fast-applications-using-node-js">Course w/ Exercises</a></li>
+<li><a href="http://codehero.co/nodejs-y-express-instalacion-e-iniciacion/">Node &amp; Express</a></li>
 </ul>
 <!-- ######################## EXPRESS.JS ######################## --> 
 
@@ -2527,10 +2588,28 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	</div></section>
 	
 	<section class="slide express" ><div>
+		<h2>Contents</h2>
+<ul>
+<li><a href="https://datafull.co/p/como-obtener-consulta-post-en-nodejs-express">Obtener POST con express</a></li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
 		<h2>Express Middleware</h2>
 <ul>
+<li><a href="http://expressjs.com/es/guide/using-middleware.html">Using Middleware</a></li>
+<li><a href="https://expressjs.com/en/resources/middleware.html">List middlewares</a><ul>
 <li><a href="http://evanhahn.com/express-dot-static-deep-dive/">static middleware</a></li>
 </ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide express exercise" ><div>
+		<h2><span class="icon-laptop"></span> Simple Site w/ Express</h2>
+<p>Create the site w/ Express explained at: <a href="http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus">http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus</a></p>
 
 	</div></section>
 	
@@ -2580,6 +2659,7 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 <li><a href="http://learnmongodbthehardway.com/schema/chapter1/">Schema</a><ul>
 <li><a href="http://learnmongodbthehardway.com/schema/chapter2/">Basics</a></li>
 <li><a href="https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/">Referencing schemas in properties</a></li>
+<li><a href="http://mongoosejs.com/docs/2.7.x/docs/methods-statics.html">Methods</a></li>
 </ul>
 </li>
 </ul>
@@ -2589,6 +2669,7 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<section class="slide mongo" ><div>
 		<h2>More resources for this Unit</h2>
 <ul>
+<li><a href="http://codehero.co/series/mongodb-desde-cero.html">MongoDb Tutorial</a></li>
 <li><a href="https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/">Tips and Tricks</a></li>
 </ul>
 
@@ -2636,9 +2717,9 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?c6edb39173cb"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?3dad2458ccda"></script>
 	
-		<script src="js/main.js?b4042d235d49"></script>
+		<script src="js/main.js?b4a5dd110da6"></script>
 	
 
 	
