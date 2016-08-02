@@ -2279,11 +2279,12 @@ Do the following katas to assure the understanding of Promise
 
 !SLIDE node
 
-## Contents
+## [EventEmitters, Streams and Buffers](http://book.mixu.net/node/ch9.html)
 
-- [Events](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/events/intro-events.md)
-- [Streams](https://www.sitepoint.com/basics-node-js-streams/) [[1]](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/intro-streams.md) [[2]](https://bl.ocks.org/joyrexus/10026630) [[3]](https://nodesource.com/blog/understanding-object-streams/)
+- [EventEmitters](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/events/intro-events.md) [**[1]**](http://book.mixu.net/node/ch9.html#9-2-eventemitters)
+- [Streams](https://www.sitepoint.com/basics-node-js-streams/) [**[1]**](http://book.mixu.net/node/ch9.html#9-3-streams) [[2]](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/intro-streams.md) [[3]](https://bl.ocks.org/joyrexus/10026630) [[4]](https://nodesource.com/blog/understanding-object-streams/)
   - [Anatomia streams](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/streams.md)
+- [Buffers](http://book.mixu.net/node/ch9.html#9-3-streams)
 
 !SLIDE node exercise
 
