@@ -2271,6 +2271,8 @@ Do the following katas to assure the understanding of Promise
   + [w/ `require`](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/modulos/modulos-node-required.md)
   + [wo/ `require`](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/modulos/modulos-node-notRequired.md)
 
+- [Modules Node](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/modulos/intro-modulos.md)
+
 - [`response` & `request`](http://codehero.co/nodejs-y-express-peticiones-y-respuestas/) [[1]](https://meanoob.wordpress.com/2015/02/08/el-objeto-request-peticion-y-responserespuesta/)
   + [Response codes](https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP)
 
@@ -2279,7 +2281,8 @@ Do the following katas to assure the understanding of Promise
 
 ## Contents
 
-- [Streams](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/intro-streams.md)
+- [Events](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/events/intro-events.md)
+- [Streams](https://www.sitepoint.com/basics-node-js-streams/) [[1]](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/intro-streams.md) [[2]](https://bl.ocks.org/joyrexus/10026630) [[3]](https://nodesource.com/blog/understanding-object-streams/)
   - [Anatomia streams](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/streams.md)
 
 !SLIDE node exercise
@@ -2328,6 +2331,7 @@ username=juanma
 
 ## Resources for this Unit  
 
+- [cUrl](https://curl.haxx.se/docs/httpscripting.html) [[1]](http://superuser.com/questions/149329/what-is-the-curl-command-line-syntax-to-do-a-post-request) [[2]](http://www.thegeekstuff.com/2012/04/curl-examples/?utm_source=feedburner) [[3]](http://www.yilmazhuseyin.com/blog/dev/curl-tutorial-examples-usage/)
 - [Getting started](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/) 
 - [Course w/ Exercises](https://openclassrooms.com/courses/ultra-fast-applications-using-node-js)
 - [Node & Express](http://codehero.co/nodejs-y-express-instalacion-e-iniciacion/)
