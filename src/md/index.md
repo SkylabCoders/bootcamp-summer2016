@@ -2281,10 +2281,24 @@ Do the following katas to assure the understanding of Promise
 
 ## [EventEmitters, Streams and Buffers](http://book.mixu.net/node/ch9.html)
 
-- [EventEmitters](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/events/intro-events.md) [**[1]**](http://book.mixu.net/node/ch9.html#9-2-eventemitters)
-- [Streams](https://www.sitepoint.com/basics-node-js-streams/) [**[1]**](http://book.mixu.net/node/ch9.html#9-3-streams) [[2]](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/intro-streams.md) [[3]](https://bl.ocks.org/joyrexus/10026630) [[4]](https://nodesource.com/blog/understanding-object-streams/)
-  - [Anatomia streams](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/streams.md)
+<span class="fa fa-youtube"></span> [[Event Emitter]](https://www.youtube.com/watch?v=NtrnaTKqFPQ)
+- [EventEmitters](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/events/intro-events.md) [**[1]**](http://book.mixu.net/node/ch9.html#9-2-eventemitters)  </br> 
 - [Buffers](http://book.mixu.net/node/ch9.html#9-3-streams)
+
+
+!SLIDE node
+
+## Streams
+
+- [Streams](https://github.com/substack/stream-handbook) [[1]](https://www.sitepoint.com/basics-node-js-streams/) [**[2]**](http://book.mixu.net/node/ch9.html#9-3-streams) [[3]](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/intro-streams.md) [[4]](https://bl.ocks.org/joyrexus/10026630)  [[5]](https://www.safaribooksonline.com/blog/2013/05/01/using-streams-in-node-js/) 
+  - [Anatomia streams](https://github.com/juanmaguitar/apuntes-nodejs/blob/master/streams/streams.md)
+
+<span class="fa fa-youtube"></span> [**Streams**](https://www.youtube.com/watch?v=UD2dZw9iHCc)  [[1](https://www.youtube.com/watch?v=GlybFFMXXmQ) [2](https://www.youtube.com/watch?v=E3tTzx0Qoj0) [3](https://www.youtube.com/watch?v=DvlCT0N7yQI) [4](https://www.youtube.com/watch?v=a8W90jDHSho)] [[1]](https://www.youtube.com/watch?v=OeqnIuTMod4)</br> 
+<span class="fa fa-vimeo"></span> [Understanding Streams](https://vimeo.com/47005357)  
+<span class="fa fa-slideshare"></span> Node Streams [[1]](http://es.slideshare.net/EyalV/nodejs-file-system-streams) [[2]](http://es.slideshare.net/kumatch1/learning-a-node-stream) [[3]](http://es.slideshare.net/kushallikhi/streams-in-node-js)
+
+
+
 
 !SLIDE node exercise
 
@@ -2332,6 +2346,7 @@ username=juanma
 
 ## Resources for this Unit  
 
+<span class="fa fa-youtube"></span> [Node JS Tutorials for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)
 - [cUrl](https://curl.haxx.se/docs/httpscripting.html) [[1]](http://superuser.com/questions/149329/what-is-the-curl-command-line-syntax-to-do-a-post-request) [[2]](http://www.thegeekstuff.com/2012/04/curl-examples/?utm_source=feedburner) [[3]](http://www.yilmazhuseyin.com/blog/dev/curl-tutorial-examples-usage/)
 - [Getting started](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/) 
 - [Course w/ Exercises](https://openclassrooms.com/courses/ultra-fast-applications-using-node-js)
