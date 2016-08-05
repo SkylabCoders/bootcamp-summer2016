@@ -2148,9 +2148,7 @@ Do the following katas to assure the understanding of Array
 - [`[].fill()`](http://tddbin.com/#?kata=es6/language/array-api/fill) 
 - [`[].find()`](http://tddbin.com/#?kata=es6/language/array-api/find) 
 - [`[].findIndex()`](http://tddbin.com/#?kata=es6/language/array-api/findIndex)
-- [`[].entries()`](http://tddbin.com/#?kata=es6/language/array-api/entries) 
-- [`[].keys()`](http://tddbin.com/#?kata=es6/language/array-api/keys) 
-- [`[].values()`](http://tddbin.com/#?kata=es6/language/array-api/values) 
+- [`[].entries()`](http://tddbin.com/#?kata=es6/language/array-api/entries), [`[].keys()`](http://tddbin.com/#?kata=es6/language/array-api/keys) & [`[].values()`](http://tddbin.com/#?kata=es6/language/array-api/values) returns [_iterator_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#iterator)
 
 !SLIDE es2015
 
@@ -2217,7 +2215,7 @@ promise.then(function(result) {
 
 ```javascript
 var allPromise = Promise.all([getLocation, getTemperature]);
-allPromise.then(function(location, temperature) {
+allPromise.then(function([location, temperature]) {
   console.log('The location is ', location,
         'and the temperature is', temperature);
 }, function(error) {
