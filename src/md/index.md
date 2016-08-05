@@ -1766,10 +1766,11 @@ Do the following katas to assure the understanding of Default parameters
 
 !SLIDE es2015 smallcode
 
-## [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+## [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) [[1]](http://exploringjs.com/es6/ch_destructuring.html)
 
 - Array destructuring
 - Object destructuring
+- [Examples](https://gist.github.com/mikaelbr/9900818)
 
 !SLIDE es2015 smallcode
 
@@ -2173,12 +2174,25 @@ String.raw`Line 1\nLine 2\nLine 3` // 'Line 1\\nLine 2\\nLine 3'
 'Hello world'.repeat(2) // 'Hello worldHello world'
 ```
 
+!SLIDE es2015 exercise
+
+## <span class="icon-laptop"></span> ES6 Katas: String
+
+Do the following katas to assure the understanding of String
+- [`string.includes()`](http://tddbin.com/#?kata=es6/language/string-api/includes)
+- [`string.repeat(count)`](http://tddbin.com/#?kata=es6/language/string-api/repeat)
+- [`string.startsWith()`](http://tddbin.com/#?kata=es6/language/string-api/startswith)
+- [`string.endsWith()`](http://tddbin.com/#?kata=es6/language/string-api/endswith)
+
+
 !SLIDE es2015
 
 ## [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 - Native implementation of promises. Yay!
 - [Promises/A+](https://promisesaplus.com/) spec compliant
+
+
 
 !SLIDE es2015 resources smallcode
 
