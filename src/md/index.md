@@ -2250,6 +2250,13 @@ Do the following katas to assure the understanding of Promise
 - [Scratch JS (chrome plugin)](https://chrome.google.com/webstore/detail/scratch-js/alploljligeomonipppgaahpkenfnfkn)
 - [Promises](https://www.promisejs.org/)
 
+!SLIDE es2015 resources
+
+## Starter projects
+  
+- Server: [Starter project for an ES2015 RESTful Express API](https://github.com/juanmaguitar/express-es6-rest-api)
+- Client: [Starter project for AngularJS using webpack and ES2015](https://github.com/jonathandavidson/angular-webpack-seed)
+
 <!-- ######################## NODE.JS ######################## --> 
 
 !SLIDE #node coverSession node
@@ -2379,18 +2386,54 @@ username=juanma
 
 !SLIDE express
 
-## Contents
+## First Steps
 
- - [Obtener POST con express](https://datafull.co/p/como-obtener-consulta-post-en-nodejs-express)
+ - [Installing Express](http://expressjs.com/en/starter/installing.html)
+ - [Hello world example](http://expressjs.com/en/starter/hello-world.html)
+ - [Express application generator](http://expressjs.com/en/starter/generator.html)
+ - [Basic routing](http://expressjs.com/en/starter/basic-routing.html)
+ - [Serving static files in Express](http://expressjs.com/en/starter/static-files.html)
 
 !SLIDE express
 
-## Express Middleware
+## Contents
 
-- [Using Middleware](http://expressjs.com/es/guide/using-middleware.html)
+- [Routing](http://expressjs.com/en/guide/routing.html)
+- [Using template engines](http://expressjs.com/en/guide/using-template-engines.html)
+- [Error handling](http://expressjs.com/en/guide/error-handling.html) | [Debugging](http://expressjs.com/en/guide/debugging.html)
+- [Database integration](http://expressjs.com/en/guide/database-integration.html)
+
+!SLIDE express
+
+## Middlewares
+
+- [**Using middleware**](http://expressjs.com/en/guide/using-middleware.html)
+- [Writing middleware](http://expressjs.com/en/guide/writing-middleware.html)
 - [List middlewares](https://expressjs.com/en/resources/middleware.html)
-  - [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
+- [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
 
+
+!SLIDE express
+
+## Contents
+
+- [Session management](http://www.hacksparrow.com/sessions-in-express-js-node-js-web-framework.html) [project](http://www.hacksparrow.com/express-js-tutorial.html)
+- [POST/GET management](http://www.hacksparrow.com/post-get-request-handling-in-node-js-express.html) [[1]](https://datafull.co/p/como-obtener-consulta-post-en-nodejs-express)
+- [Log Access & Errors](http://www.hacksparrow.com/express-js-logging-access-and-errors.html)
+- [Request](http://node-tricks.com/request-object/) & [Response](http://node-tricks.com/response-object/)
+
+!SLIDE express
+
+## Authentication
+
+- [User Authentication](http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/)
+  - [w/ Middleware express-authentication](https://github.com/izaakschroeder/express-authentication)
+  - [w/ JSON Web Tokens](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
+  - [**passport**](http://passportjs.org/docs/authenticate) | [w/ Passport](https://www.sitepoint.com/user-authentication-mean-stack/) [[1]](https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/)
+  - [w/ Passport & Orchestrate](https://www.ctl.io/developers/blog/post/build-user-authentication-with-node-js-express-passport-and-orchestrate)
+- [Authenticaton w/ Users & Roles](https://gist.github.com/danwit/e0a7c5ad57c9ce5659d2)
+  - [Implement Access Control in Node.js](https://blog.nodeswat.com/implement-access-control-in-node-js-8567e7b484d1#.pkk681vm9)
+  - [Gandalf](https://github.com/PatrickHeneise/Gandalf)
 
 !SLIDE express exercise
 
@@ -2403,6 +2446,14 @@ Create the site w/ Express explained at: http://www.clock.co.uk/blog/a-simple-we
 ## <span class="icon-laptop"></span> Express NodeSchool Kata
 
 - Do the coding exercises suggested at the NodeSchool workshop: https://github.com/azat-co/expressworks
+
+!SLIDE es2015 resources
+
+## Starter projects
+  
+- [Yeoman generator for ES2015 Express apps with Babel](https://github.com/jamesallardice/generator-babel-express)
+
+
 
 <!-- ######################## MONGO DB ######################## --> 
 
