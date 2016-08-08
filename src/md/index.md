@@ -2392,13 +2392,14 @@ username=juanma
  - [Hello world example](http://expressjs.com/en/starter/hello-world.html)
  - [Express application generator](http://expressjs.com/en/starter/generator.html)
  - [Basic routing](http://expressjs.com/en/starter/basic-routing.html)
- - [Serving static files in Express](http://expressjs.com/en/starter/static-files.html)
+ - [Serving static files in Express](https://diigo.com/08sjz4)
 
 !SLIDE express
 
 ## Contents
 
-- [Routing](http://expressjs.com/en/guide/routing.html)
+- [Routing](https://diigo.com/08sjze)
+- [Middlewares](#211)
 - [Using template engines](http://expressjs.com/en/guide/using-template-engines.html)
 - [Error handling](http://expressjs.com/en/guide/error-handling.html) | [Debugging](http://expressjs.com/en/guide/debugging.html)
 - [Database integration](http://expressjs.com/en/guide/database-integration.html)
@@ -2407,8 +2408,8 @@ username=juanma
 
 ## Middlewares
 
-- [**Using middleware**](http://expressjs.com/en/guide/using-middleware.html)
-- [Writing middleware](http://expressjs.com/en/guide/writing-middleware.html)
+- [Writing middleware](https://diigo.com/08sjzk)
+- [**Using middleware**](https://diigo.com/08sla5)
 - [List middlewares](https://expressjs.com/en/resources/middleware.html)
 - [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
 
