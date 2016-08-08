@@ -2401,6 +2401,7 @@ username=juanma
 - [Routing](https://diigo.com/08sjze)
 - [Middlewares](#211)
 - [Using template engines](http://expressjs.com/en/guide/using-template-engines.html)
+  - [Serving files wo/ template engines](https://codeforgeek.com/2015/01/render-html-file-expressjs/)
 - [Error handling](http://expressjs.com/en/guide/error-handling.html) | [Debugging](http://expressjs.com/en/guide/debugging.html)
 - [Database integration](http://expressjs.com/en/guide/database-integration.html)
 
@@ -2412,6 +2413,40 @@ username=juanma
 - [**Using middleware**](https://diigo.com/08sla5)
 - [List middlewares](https://expressjs.com/en/resources/middleware.html)
 - [static middleware](http://evanhahn.com/express-dot-static-deep-dive/)
+  - [`res.sendfile`](http://expressjs.com/es/4x/api.html#res.sendFile) [[1]](http://www.hacksparrow.com/how-to-server-static-html-files-in-express-js.html)
+
+!SLIDE express
+
+## [Application](http://expressjs.com/en/4x/api.html#app)
+
+* [`app.all()`](http://expressjs.com/en/4x/api.html#app.all)
+* [`app.get`](http://expressjs.com/en/4x/api.html#app.get.method), [`app.post()`](http://expressjs.com/en/4x/api.html#app.post.method), [`app.put`](http://expressjs.com/en/4x/api.html#app.put.method) & [`app.delete()`](http://expressjs.com/en/4x/api.html#app.delete.method)
+* [`app.set()`](http://expressjs.com/en/4x/api.html#app.set) & [`app.get()`](http://expressjs.com/en/4x/api.html#app.get)
+* [`app.param()`](http://expressjs.com/en/4x/api.html#app.param)
+* [`app.use()`](http://expressjs.com/en/4x/api.html#app.use)
+* [`app.listen()`](http://expressjs.com/en/4x/api.html#app.listen) 
+
+!SLIDE express
+
+## [Request](http://expressjs.com/en/4x/api.html#req)
+
+- [`req.body`](http://expressjs.com/en/4x/api.html#req.body) (w/ [_body-parser_](https://www.npmjs.org/package/body-parser))
+- [`req.cookies`](http://expressjs.com/en/4x/api.html#req.cookies) (w/ [_ cookie-parser_](https://www.npmjs.com/package/cookie-parser))
+- [`req.hostname`](http://expressjs.com/en/4x/api.html#req.hostname), [`req.ip`](http://expressjs.com/en/4x/api.html#req.ip), [`req.method`](http://expressjs.com/en/4x/api.html#req.method)
+- [`req.params`](http://expressjs.com/en/4x/api.html#req.params) (w/ `/user/:name`)
+- [`req.query`](http://expressjs.com/en/4x/api.html#req.query) (w/ `/search?q=tobi+ferret` )
+
+!SLIDE express
+
+## [Response](http://expressjs.com/en/4x/api.html#res)
+
+- [`res.send()`](http://expressjs.com/en/4x/api.html#res.send)
+- [`res.json()`](http://expressjs.com/en/4x/api.html#res.json)
+- [`res.jsonp()`](http://expressjs.com/en/4x/api.html#res.jsonp)
+- [`res.sendFile()`](http://expressjs.com/en/4x/api.html#res.sendFile)
+- [`res.cookie()`](http://expressjs.com/en/4x/api.html#res.cookie)
+- [`res.redirect()`](http://expressjs.com/en/4x/api.html#res.redirect)
+- [`res.render()`](http://expressjs.com/en/4x/api.html#res.render)
 
 
 !SLIDE express
@@ -2441,6 +2476,13 @@ username=juanma
 ## <span class="icon-laptop"></span> Simple Site w/ Express 
 
 Create the site w/ Express explained at: http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus
+
+!SLIDE express exercise
+
+## <span class="icon-laptop"></span> Simple Site w/ Express 
+
+Create the site w/ Express explained at: http://code.tutsplus.com/tutorials/introduction-to-express--net-33367
+
 
 !SLIDE express exercise
 

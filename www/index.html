@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&2ea1217e8dff">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&2ff084a0cd2a">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?b0db74977901">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?b7b99d7387d4">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?808934758d4a">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?883fab140ff2">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?cfa69037d2a2">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?dcc628ed7a04">
 	
-		<link rel="stylesheet" href="css/styles.css?be351c02a7c3">
+		<link rel="stylesheet" href="css/styles.css?8209e212de8e">
 	
-		<link rel="stylesheet" href="css/print.css?51fe03f399e8">
+		<link rel="stylesheet" href="css/print.css?406295b78a11">
 	
 </head>
 <body class="list">
@@ -2670,7 +2670,10 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 <ul>
 <li><a href="https://diigo.com/08sjze">Routing</a></li>
 <li><a href="#211">Middlewares</a></li>
-<li><a href="http://expressjs.com/en/guide/using-template-engines.html">Using template engines</a></li>
+<li><a href="http://expressjs.com/en/guide/using-template-engines.html">Using template engines</a><ul>
+<li><a href="https://codeforgeek.com/2015/01/render-html-file-expressjs/">Serving files wo/ template engines</a></li>
+</ul>
+</li>
 <li><a href="http://expressjs.com/en/guide/error-handling.html">Error handling</a> | <a href="http://expressjs.com/en/guide/debugging.html">Debugging</a></li>
 <li><a href="http://expressjs.com/en/guide/database-integration.html">Database integration</a></li>
 </ul>
@@ -2683,7 +2686,49 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 <li><a href="https://diigo.com/08sjzk">Writing middleware</a></li>
 <li><a href="https://diigo.com/08sla5"><strong>Using middleware</strong></a></li>
 <li><a href="https://expressjs.com/en/resources/middleware.html">List middlewares</a></li>
-<li><a href="http://evanhahn.com/express-dot-static-deep-dive/">static middleware</a></li>
+<li><a href="http://evanhahn.com/express-dot-static-deep-dive/">static middleware</a><ul>
+<li><a href="http://expressjs.com/es/4x/api.html#res.sendFile"><code>res.sendfile</code></a> <a href="http://www.hacksparrow.com/how-to-server-static-html-files-in-express-js.html">[1]</a></li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2><a href="http://expressjs.com/en/4x/api.html#app">Application</a></h2>
+<ul>
+<li><a href="http://expressjs.com/en/4x/api.html#app.all"><code>app.all()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#app.get.method"><code>app.get</code></a>, <a href="http://expressjs.com/en/4x/api.html#app.post.method"><code>app.post()</code></a>, <a href="http://expressjs.com/en/4x/api.html#app.put.method"><code>app.put</code></a> &amp; <a href="http://expressjs.com/en/4x/api.html#app.delete.method"><code>app.delete()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#app.set"><code>app.set()</code></a> &amp; <a href="http://expressjs.com/en/4x/api.html#app.get"><code>app.get()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#app.param"><code>app.param()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#app.use"><code>app.use()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#app.listen"><code>app.listen()</code></a> </li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2><a href="http://expressjs.com/en/4x/api.html#req">Request</a></h2>
+<ul>
+<li><a href="http://expressjs.com/en/4x/api.html#req.body"><code>req.body</code></a> (w/ <a href="https://www.npmjs.org/package/body-parser"><em>body-parser</em></a>)</li>
+<li><a href="http://expressjs.com/en/4x/api.html#req.cookies"><code>req.cookies</code></a> (w/ <a href="https://www.npmjs.com/package/cookie-parser"><em> cookie-parser</em></a>)</li>
+<li><a href="http://expressjs.com/en/4x/api.html#req.hostname"><code>req.hostname</code></a>, <a href="http://expressjs.com/en/4x/api.html#req.ip"><code>req.ip</code></a>, <a href="http://expressjs.com/en/4x/api.html#req.method"><code>req.method</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#req.params"><code>req.params</code></a> (w/ <code>/user/:name</code>)</li>
+<li><a href="http://expressjs.com/en/4x/api.html#req.query"><code>req.query</code></a> (w/ <code>/search?q=tobi+ferret</code> )</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2><a href="http://expressjs.com/en/4x/api.html#res">Response</a></h2>
+<ul>
+<li><a href="http://expressjs.com/en/4x/api.html#res.send"><code>res.send()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#res.json"><code>res.json()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#res.jsonp"><code>res.jsonp()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#res.sendFile"><code>res.sendFile()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#res.cookie"><code>res.cookie()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#res.redirect"><code>res.redirect()</code></a></li>
+<li><a href="http://expressjs.com/en/4x/api.html#res.render"><code>res.render()</code></a></li>
 </ul>
 
 	</div></section>
@@ -2721,6 +2766,12 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<section class="slide express exercise" ><div>
 		<h2><span class="icon-laptop"></span> Simple Site w/ Express</h2>
 <p>Create the site w/ Express explained at: <a href="http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus">http://www.clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus</a></p>
+
+	</div></section>
+	
+	<section class="slide express exercise" ><div>
+		<h2><span class="icon-laptop"></span> Simple Site w/ Express</h2>
+<p>Create the site w/ Express explained at: <a href="http://code.tutsplus.com/tutorials/introduction-to-express--net-33367">http://code.tutsplus.com/tutorials/introduction-to-express--net-33367</a></p>
 
 	</div></section>
 	
@@ -2836,9 +2887,9 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?de4223e6ed49"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?00db4920d939"></script>
 	
-		<script src="js/main.js?efc577c1422c"></script>
+		<script src="js/main.js?10ba11f1957f"></script>
 	
 
 	
