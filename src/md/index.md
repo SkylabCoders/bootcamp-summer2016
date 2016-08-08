@@ -2483,6 +2483,11 @@ Create the site w/ Express explained at: http://www.clock.co.uk/blog/a-simple-we
 
 Create the site w/ Express explained at: http://code.tutsplus.com/tutorials/introduction-to-express--net-33367
 
+!SLIDE express exercise
+
+## <span class="icon-laptop"></span> Todo APP
+
+Create the site w/ Express explained at: https://github.com/juanmaguitar/node-exercises/tree/master/01-todo-app
 
 !SLIDE express exercise
 
