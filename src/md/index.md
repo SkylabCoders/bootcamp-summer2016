@@ -2448,6 +2448,15 @@ username=juanma
 - [`res.redirect()`](http://expressjs.com/en/4x/api.html#res.redirect)
 - [`res.render()`](http://expressjs.com/en/4x/api.html#res.render)
 
+!SLIDE express
+
+## [Jade](http://jade-lang.com/)
+
+- [Jade Syntax Documentation](https://naltatis.github.io/jade-syntax-docs/)
+- [Learn Jade](http://learnjade.com/)
+  + [Tags & text](http://learnjade.com/tour/tags-and-text/) | [Nesting](http://learnjade.com/tour/nesting/) | [Block expansion](http://learnjade.com/tour/block-expansion/) | [Attributes](http://learnjade.com/tour/attributes/) | [Iteration](http://learnjade.com/tour/iteration/) | [Conditionals](http://learnjade.com/tour/conditionals/) | [Template inheritance](http://learnjade.com/tour/template-inheritance/)
+- [Jade ♥ Bootstrap](http://piumosso.github.io/bootsnip/)
+
 
 !SLIDE express
 
