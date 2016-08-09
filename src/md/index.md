@@ -2461,11 +2461,17 @@ username=juanma
 
 !SLIDE express
 
-## Sessions w/ Express
+## Sessions & Cookies w/ Express
 
+
+- [Cookies y Sessions](http://codehero.co/nodejs-y-express-cookies-y-sesiones/)
+  - [Cookies](https://www.codementor.io/nodejs/tutorial/cookie-management-in-express-js)
+  - [Sessions](https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions) [[1]](http://www.hacksparrow.com/sessions-in-express-js-node-js-web-framework.html) [[2]](http://www.hacksparrow.com/express-js-tutorial.html)  
+- <p class="fa fa-youtube"></p> [Sessions](https://youtu.be/yvviEA1pOXw?t=31m42s) 
 - [`express-session`](https://github.com/expressjs/session) [[1]](https://glebbahmutov.com/blog/express-sessions/)
-  - [`name`](https://github.com/expressjs/session#name) | `secret`
-- [Session management](http://www.hacksparrow.com/sessions-in-express-js-node-js-web-framework.html) [project](http://www.hacksparrow.com/express-js-tutorial.html)
+  - [_`secret`_](https://github.com/expressjs/session#secret) | [`name`](https://github.com/expressjs/session#name) | [`cookie`](https://github.com/expressjs/session#cookie)
+- [`cookie-parser`](https://github.com/expressjs/cookie-parser)
+- [Utilizar cookies de forma segura](http://expressjs.com/es/advanced/best-practice-security.html#utilizar-cookies-de-forma-segura)
 
 !SLIDE express
 
@@ -2563,6 +2569,19 @@ Create the site w/ Express explained at: https://github.com/juanmaguitar/node-ex
 
 - [MongoDb Tutorial](http://codehero.co/series/mongodb-desde-cero.html)
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
+
+!SLIDE mongo stack1
+
+![MEAN stack scheme](img/mean-stack-scheme.png)
+
+!SLIDE mongo stack2
+
+![MEAN stack scheme](img/mean-stack.jpg)
+
+!SLIDE mongo mysql
+
+![mySql vs MongoDB](img/mySql-vs-mongoDB.png)
+
 
 !SLIDE mongo
 
