@@ -2425,6 +2425,7 @@ username=juanma
 * [`app.param()`](http://expressjs.com/en/4x/api.html#app.param)
 * [`app.use()`](http://expressjs.com/en/4x/api.html#app.use)
 * [`app.listen()`](http://expressjs.com/en/4x/api.html#app.listen) 
+* [`app.locals`](http://expressjs.com/es/api.html#app.locals) [w/ moment.js](http://stackoverflow.com/questions/12419396/how-do-i-display-todays-date-in-node-js-jade)
 
 !SLIDE express
 
@@ -2460,9 +2461,16 @@ username=juanma
 
 !SLIDE express
 
+## Sessions w/ Express
+
+- [`express-session`](https://github.com/expressjs/session) [[1]](https://glebbahmutov.com/blog/express-sessions/)
+  - [`name`](https://github.com/expressjs/session#name) | `secret`
+- [Session management](http://www.hacksparrow.com/sessions-in-express-js-node-js-web-framework.html) [project](http://www.hacksparrow.com/express-js-tutorial.html)
+
+!SLIDE express
+
 ## Contents
 
-- [Session management](http://www.hacksparrow.com/sessions-in-express-js-node-js-web-framework.html) [project](http://www.hacksparrow.com/express-js-tutorial.html)
 - [POST/GET management](http://www.hacksparrow.com/post-get-request-handling-in-node-js-express.html) [[1]](https://datafull.co/p/como-obtener-consulta-post-en-nodejs-express)
 - [Log Access & Errors](http://www.hacksparrow.com/express-js-logging-access-and-errors.html)
 - [Request](http://node-tricks.com/request-object/) & [Response](http://node-tricks.com/response-object/)
