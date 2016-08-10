@@ -29,14 +29,33 @@ $color-mongo: #449945;
 
 $color-sass: #c6538c;
 
+.mongo.collection img {
+    width: 680px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.mongo.document img {
+    width: 680px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.mongo.concepts img {
+    width: 560px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
 .mongo.stack1 img {
     width: 840px;
     margin-top: 40px;
+    margin-left: -40px;
 }
 
 .mongo.stack2 img {
     width: 650px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: -30px;
 }
 

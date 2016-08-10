@@ -2539,11 +2539,56 @@ Create the site w/ Express explained at: https://github.com/juanmaguitar/node-ex
 ## Web Development Bootcamp 
 ### **Mongo DB**
 
+!SLIDE mongo concepts
+
+> MongoDB is an open-source @@document database@@ that provides high performance, high availability, and automatic scaling.
+
+![Mongo concepts](img/mongodb-concepts.png)
+
+
+!SLIDE mongo document
+
+> @@A record in MongoDB is a [document](https://docs.mongodb.com/manual/core/document/)@@, which is a data structure composed of field and value pairs. @@MongoDB documents are similar to JSON objects@@. The values of fields may include other documents, arrays, and arrays of documents.
+
+![Mongo document](img/mongodb-document.png)
+
+!SLIDE mongo collection
+
+> MongoDB stores @@[BSON documents](https://docs.mongodb.com/manual/reference/bson-types/)@@, i.e. data records, @@in [collections](https://docs.mongodb.com/manual/core/databases-and-collections/#collections)@@; the collections in databases.
+
+![Mongo collection](img/mongodb-collection.png)
+
 !SLIDE mongo
 
-## Contents
+## Create a Database and a Collection
 
-- [First Steps](http://michelebusta.com/the-little-things-5-initialize-a-local-mongo-db/)
+```
+use myNewDB
+db.myNewCollection1.insert( { x: 1 } )
+```
+
+!SLIDE mongo
+
+## aaaaa
+
+
+!SLIDE mongo
+
+## Installation and Use
+
+ - Installation <a class="icon-windows ml-xl" href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/"></a> <a style="margin-left:40px !important;" class="icon-apple ml-xl" href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/"></a>
+
+- [Using mongoDB](http://stackoverflow.com/questions/4883045/mongodb-difference-between-running-mongo-and-mongod-databases) [[1]](http://michelebusta.com/the-little-things-5-initialize-a-local-mongo-db/)
+    + [`mongod`](https://docs.mongodb.com/manual/reference/program/mongod/) ⟶ The Daemon
+      + `mongod --dbpath ~/data/db`
+    + [`mongo`](https://docs.mongodb.com/manual/mongo/) ⟶ The Shell ([**Reference Guide**](https://docs.mongodb.com/manual/reference/mongo-shell/))
+      + `show dbs` & `use ProjectDBName` & `show collections`
+      + `db.collection.help()` & `db.collection.find().help()`
+
+!SLIDE mongo
+
+## Data Modeling
+
 - [CRUD Operations](https://docs.mongodb.com/manual/crud/)
 
 !SLIDE mongo
