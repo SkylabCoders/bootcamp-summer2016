@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&d78ae6e03d19">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&d3725a77a0b9">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?4d8d742c532d">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?7804cab87f2e">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?70dd5ba8c40e">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?b8bae8306f6e">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?a57a01f63a35">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?f45058bfa787">
 	
-		<link rel="stylesheet" href="css/styles.css?b28c6cbe7816">
+		<link rel="stylesheet" href="css/styles.css?fff80b6c3c7c">
 	
-		<link rel="stylesheet" href="css/print.css?a6ada1d9240c">
+		<link rel="stylesheet" href="css/print.css?617c29332942">
 	
 </head>
 <body class="list">
@@ -2842,10 +2842,66 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 
 	</div></section>
 	
+	<section class="slide mongo concepts" ><div>
+		<blockquote>
+<p>MongoDB is an open-source <mark>document database</mark> that provides high performance, high availability, and automatic scaling.</p>
+</blockquote>
+<img src="img/mongodb-concepts.png" alt="Mongo concepts">
+
+	</div></section>
+	
+	<section class="slide mongo document" ><div>
+		<blockquote>
+<p><mark>A record in MongoDB is a <a href="https://docs.mongodb.com/manual/core/document/">document</a></mark>, which is a data structure composed of field and value pairs. <mark>MongoDB documents are similar to JSON objects</mark>. The values of fields may include other documents, arrays, and arrays of documents.</p>
+</blockquote>
+<img src="img/mongodb-document.png" alt="Mongo document">
+
+	</div></section>
+	
+	<section class="slide mongo collection" ><div>
+		<blockquote>
+<p>MongoDB stores <mark><a href="https://docs.mongodb.com/manual/reference/bson-types/">BSON documents</a></mark>, i.e. data records, <mark>in <a href="https://docs.mongodb.com/manual/core/databases-and-collections/#collections">collections</a></mark>; the collections in databases.</p>
+</blockquote>
+<img src="img/mongodb-collection.png" alt="Mongo collection">
+
+	</div></section>
+	
 	<section class="slide mongo" ><div>
-		<h2>Contents</h2>
+		<h2>Create a Database and a Collection</h2>
+<pre><code>use myNewDB</code>
+<code>db.myNewCollection1.insert( { x: 1 } )</code></pre>
+	</div></section>
+	
+	<section class="slide mongo" ><div>
+		<p>## </p>
+
+	</div></section>
+	
+	<section class="slide mongo" ><div>
+		<h2>Installation and Use</h2>
 <ul>
-<li><a href="http://michelebusta.com/the-little-things-5-initialize-a-local-mongo-db/">First Steps</a></li>
+<li>Installation <a class="icon-windows ml-xl" href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/"></a> <a style="margin-left:40px !important;" class="icon-apple ml-xl" href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/"></a></li>
+</ul>
+<ul>
+<li><a href="http://stackoverflow.com/questions/4883045/mongodb-difference-between-running-mongo-and-mongod-databases">Using mongoDB</a> <a href="http://michelebusta.com/the-little-things-5-initialize-a-local-mongo-db/">[1]</a><ul>
+<li><a href="https://docs.mongodb.com/manual/reference/program/mongod/"><code>mongod</code></a> ⟶ The Daemon<ul>
+<li><code>mongod --dbpath ~/data/db</code></li>
+</ul>
+</li>
+<li><a href="https://docs.mongodb.com/manual/mongo/"><code>mongo</code></a> ⟶ The Shell (<a href="https://docs.mongodb.com/manual/reference/mongo-shell/"><strong>Reference Guide</strong></a>)<ul>
+<li><code>show dbs</code> &amp; <code>use ProjectDBName</code> &amp; <code>show collections</code></li>
+<li><code>db.collection.help()</code> &amp; <code>db.collection.find().help()</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide mongo" ><div>
+		<h2>Data Modeling</h2>
+<ul>
 <li><a href="https://docs.mongodb.com/manual/crud/">CRUD Operations</a></li>
 </ul>
 
@@ -2940,9 +2996,9 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?8f629d0755ac"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?4cf2acbff204"></script>
 	
-		<script src="js/main.js?43f955d9e8df"></script>
+		<script src="js/main.js?80193e8ae925"></script>
 	
 
 	
