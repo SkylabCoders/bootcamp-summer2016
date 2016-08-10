@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&d3725a77a0b9">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&1030ef460976">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?7804cab87f2e">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?143ebeec16d8">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?b8bae8306f6e">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ada025cc4c43">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?f45058bfa787">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?6564b6ae2976">
 	
-		<link rel="stylesheet" href="css/styles.css?fff80b6c3c7c">
+		<link rel="stylesheet" href="css/styles.css?d3798be59281">
 	
-		<link rel="stylesheet" href="css/print.css?617c29332942">
+		<link rel="stylesheet" href="css/print.css?44200981d81b">
 	
 </head>
 <body class="list">
@@ -2866,14 +2866,28 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 
 	</div></section>
 	
-	<section class="slide mongo" ><div>
-		<h2>Create a Database and a Collection</h2>
+	<section class="slide mongo smallcode" ><div>
+		<h3>Create a Database and a Collection</h3>
 <pre><code>use myNewDB</code>
-<code>db.myNewCollection1.insert( { x: 1 } )</code></pre>
+<code>db.myNewCollection1.insert( { x: 1 } )</code></pre><h3>Document example</h3></code>
+<code><pre><code>var mydoc = {</code>
+<code>   _id: ObjectId(&quot;5099803df3f4948bd2f98391&quot;),</code>
+<code>   name: { first: &quot;Alan&quot;, last: &quot;Turing&quot; },</code>
+<code>   birth: new Date(&#39;Jun 23, 1912&#39;),</code>
+<code>   death: new Date(&#39;Jun 07, 1954&#39;),</code>
+<code>   contribs: [ &quot;Turing machine&quot;, &quot;Turing test&quot;, &quot;Turingery&quot; ],</code>
+<code>   views : NumberLong(1250000)</code>
+<code>}</code></pre>
 	</div></section>
 	
 	<section class="slide mongo" ><div>
-		<p>## </p>
+		<h2>Documents</h2>
+<ul>
+<li><a href="https://docs.mongodb.com/manual/core/document/#field-names">Field Names</a> |<a href="https://docs.mongodb.com/manual/core/document/#dot-notation"> Dot Notation</a></li>
+<li><a href="https://docs.mongodb.com/manual/core/document/#the-id-field">The <code>_id</code> Field</a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/bson-types/">BSON types</a></li>
+</ul>
+<p><a href="https://www.mongodb.com/blog/post/thinking-documents-part-1"><em>Thinking in documents</em></a></p>
 
 	</div></section>
 	
@@ -2899,10 +2913,99 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 
 	</div></section>
 	
+	<section class="slide mongo insert" ><div>
+		<blockquote>
+<p>Create or insert operations <mark>add new documents to a collection</mark>.</p>
+</blockquote>
+<img src="img/crud-annotated-mongodb-insert.png" alt="Mongo insert">
+
+	</div></section>
+	
+	<section class="slide mongo find" ><div>
+		<blockquote>
+<p>Read operations retrieves documents from a collection; i.e. <mark>queries a collection for documents</mark>.</p>
+</blockquote>
+<img src="img/crud-annotated-mongodb-find.png" alt="Mongo find">
+
+	</div></section>
+	
+	<section class="slide mongo update" ><div>
+		<blockquote>
+<p>Update operations <mark>modify existing documents in a collection</mark></p>
+</blockquote>
+<img src="img/crud-annotated-mongodb-update.png" alt="Mongo update">
+
+	</div></section>
+	
+	<section class="slide mongo remove" ><div>
+		<blockquote>
+<p>Delete operations <mark>remove documents from a collection</mark></p>
+</blockquote>
+<img src="img/crud-annotated-mongodb-remove.png" alt="Mongo remove">
+
+	</div></section>
+	
 	<section class="slide mongo" ><div>
-		<h2>Data Modeling</h2>
+		<h2><a href="https://docs.mongodb.com/manual/crud/">CRUD Operations</a></h2>
 <ul>
-<li><a href="https://docs.mongodb.com/manual/crud/">CRUD Operations</a></li>
+<li><a href="https://docs.mongodb.com/manual/tutorial/insert-documents/#insert-documents">Insert Documents</a><ul>
+<li><a href="https://docs.mongodb.com/manual/tutorial/insert-documents/#db-collection-insertone"><code>db.collection.insertOne()</code></a></li>
+<li><a href="https://docs.mongodb.com/manual/tutorial/insert-documents/#db-collection-insertone"><code>db.collection.insertMany()</code></a></li>
+<li><a href="https://docs.mongodb.com/manual/tutorial/insert-documents/#db-collection-insert"><code>db.collection.insert()</code></a></li>
+</ul>
+</li>
+<li><a href="https://docs.mongodb.com/manual/tutorial/query-documents/">Query Documents</a><ul>
+<li><a href="https://docs.mongodb.com/manual/reference/method/db.collection.find/#db.collection.find"><code>db.collection.find()</code></a></li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide mongo" ><div>
+		<h2><a href="https://docs.mongodb.com/manual/crud/">CRUD Operations</a></h2>
+<ul>
+<li><p><a href="https://docs.mongodb.com/manual/tutorial/update-documents/">Update Documents</a></p>
+<ul>
+<li><a href="https://docs.mongodb.com/manual/reference/method/db.collection.update/#db.collection.update"><code>db.collection.update()</code></a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/#db.collection.updateOne"><code>db.collection.updateOne()</code></a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/method/db.collection.updateMany/#db.collection.updateMany"><code>db.collection.updateMany()</code></a></li>
+</ul>
+</li>
+<li><p><a href="https://docs.mongodb.com/manual/tutorial/remove-documents/">Remove Documents</a></p>
+<ul>
+<li><a href="https://docs.mongodb.com/manual/reference/method/db.collection.remove/#db.collection.remove"><code>db.collection.remove()</code></a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/method/db.collection.deleteOne/#db.collection.deleteOne"><code>db.collection.deleteOne()</code></a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/method/db.collection.deleteMany/#db.collection.deleteMany"><code>db.collection.deleteMany()</code></a></li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide mongo smallcode" ><div>
+		<h2>Mongo &amp; Node</h2>
+<ul>
+<li><a href="https://www.npmjs.com/package/mongodb"><code>mongodb</code></a> </li>
+</ul>
+<pre><code>var MongoClient = require(&#39;mongodb&#39;).MongoClient;</code>
+<code>&shy;</code>
+<code>// Connection URL </code>
+<code>var url = &#39;mongodb://localhost:27017/myproject&#39;;</code>
+<code>// Use connect method to connect to the Server </code>
+<code>MongoClient.connect(url, function(err, db) {</code>
+<code>  console.log(&quot;Connected correctly to server&quot;);</code>
+<code>  db.close();</code>
+<code>});</code></pre>
+	</div></section>
+	
+	<section class="slide mongo smallcode" ><div>
+		<h2>Mongo &amp; Node</h2>
+<ul>
+<li><a href="https://www.npmjs.com/package/mongodb#inserting-a-document">Inserting documents</a> </li>
+<li><a href="https://www.npmjs.com/package/mongodb#updating-a-document">Updating documents</a></li>
+<li><a href="https://www.npmjs.com/package/mongodb#delete-a-document">Delete a document</a></li>
+<li><a href="https://www.npmjs.com/package/mongodb#find-all-documents">Find All Documents</a> </li>
 </ul>
 
 	</div></section>
@@ -2935,6 +3038,7 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 <ul>
 <li><a href="http://codehero.co/series/mongodb-desde-cero.html">MongoDb Tutorial</a></li>
 <li><a href="https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/">Tips and Tricks</a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/sql-comparison/">SQL to MongoDB Mapping Chart</a></li>
 </ul>
 
 	</div></section>
@@ -2996,9 +3100,9 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?4cf2acbff204"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?d41077e488ff"></script>
 	
-		<script src="js/main.js?80193e8ae925"></script>
+		<script src="js/main.js?7b3605377b1e"></script>
 	
 
 	

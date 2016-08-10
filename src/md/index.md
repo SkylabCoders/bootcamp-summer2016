@@ -2558,18 +2558,38 @@ Create the site w/ Express explained at: https://github.com/juanmaguitar/node-ex
 
 ![Mongo collection](img/mongodb-collection.png)
 
-!SLIDE mongo
 
-## Create a Database and a Collection
+!SLIDE mongo smallcode
+
+### Create a Database and a Collection
 
 ```
 use myNewDB
 db.myNewCollection1.insert( { x: 1 } )
 ```
 
+### Document example
+```
+var mydoc = {
+   _id: ObjectId("5099803df3f4948bd2f98391"),
+   name: { first: "Alan", last: "Turing" },
+   birth: new Date('Jun 23, 1912'),
+   death: new Date('Jun 07, 1954'),
+   contribs: [ "Turing machine", "Turing test", "Turingery" ],
+   views : NumberLong(1250000)
+}
+```
+
 !SLIDE mongo
 
-## aaaaa
+## Documents
+
+- [Field Names](https://docs.mongodb.com/manual/core/document/#field-names) |[ Dot Notation](https://docs.mongodb.com/manual/core/document/#dot-notation)
+- [The `_id` Field](https://docs.mongodb.com/manual/core/document/#the-id-field)
+- [BSON types](https://docs.mongodb.com/manual/reference/bson-types/)
+
+[_Thinking in documents_](https://www.mongodb.com/blog/post/thinking-documents-part-1)
+
 
 
 !SLIDE mongo
@@ -2585,11 +2605,85 @@ db.myNewCollection1.insert( { x: 1 } )
       + `show dbs` & `use ProjectDBName` & `show collections`
       + `db.collection.help()` & `db.collection.find().help()`
 
+!SLIDE mongo insert
+
+> Create or insert operations @@add new documents to a collection@@.
+
+![Mongo insert](img/crud-annotated-mongodb-insert.png)
+
+
+!SLIDE mongo find
+
+> Read operations retrieves documents from a collection; i.e. @@queries a collection for documents@@.
+
+![Mongo find](img/crud-annotated-mongodb-find.png)
+
+!SLIDE mongo update
+
+> Update operations @@modify existing documents in a collection@@
+
+![Mongo update](img/crud-annotated-mongodb-update.png)
+
+!SLIDE mongo remove
+
+> Delete operations @@remove documents from a collection@@
+
+![Mongo remove](img/crud-annotated-mongodb-remove.png)
+
+
 !SLIDE mongo
 
-## Data Modeling
+## [CRUD Operations](https://docs.mongodb.com/manual/crud/)
 
-- [CRUD Operations](https://docs.mongodb.com/manual/crud/)
+* [Insert Documents](https://docs.mongodb.com/manual/tutorial/insert-documents/#insert-documents)
+  + [`db.collection.insertOne()`](https://docs.mongodb.com/manual/tutorial/insert-documents/#db-collection-insertone)
+  + [`db.collection.insertMany()`](https://docs.mongodb.com/manual/tutorial/insert-documents/#db-collection-insertone)
+  + [`db.collection.insert()`](https://docs.mongodb.com/manual/tutorial/insert-documents/#db-collection-insert)
+- [Query Documents](https://docs.mongodb.com/manual/tutorial/query-documents/)
+  - [`db.collection.find()`](https://docs.mongodb.com/manual/reference/method/db.collection.find/#db.collection.find)
+
+
+!SLIDE mongo
+
+## [CRUD Operations](https://docs.mongodb.com/manual/crud/)
+
+* [Update Documents](https://docs.mongodb.com/manual/tutorial/update-documents/)
+  + [`db.collection.update()`](https://docs.mongodb.com/manual/reference/method/db.collection.update/#db.collection.update)
+  + [`db.collection.updateOne()`](https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/#db.collection.updateOne)
+  + [`db.collection.updateMany()`](https://docs.mongodb.com/manual/reference/method/db.collection.updateMany/#db.collection.updateMany)
+  
+- [Remove Documents](https://docs.mongodb.com/manual/tutorial/remove-documents/)
+  - [`db.collection.remove()`](https://docs.mongodb.com/manual/reference/method/db.collection.remove/#db.collection.remove)
+  - [`db.collection.deleteOne()`](https://docs.mongodb.com/manual/reference/method/db.collection.deleteOne/#db.collection.deleteOne)
+  - [`db.collection.deleteMany()`](https://docs.mongodb.com/manual/reference/method/db.collection.deleteMany/#db.collection.deleteMany)
+
+
+!SLIDE mongo smallcode
+
+## Mongo & Node
+
+- [`mongodb`](https://www.npmjs.com/package/mongodb) 
+
+```
+var MongoClient = require('mongodb').MongoClient;
+ 
+// Connection URL 
+var url = 'mongodb://localhost:27017/myproject';
+// Use connect method to connect to the Server 
+MongoClient.connect(url, function(err, db) {
+  console.log("Connected correctly to server");
+  db.close();
+});
+```
+
+!SLIDE mongo smallcode
+
+## Mongo & Node
+
+- [Inserting documents](https://www.npmjs.com/package/mongodb#inserting-a-document) 
+- [Updating documents](https://www.npmjs.com/package/mongodb#updating-a-document)
+- [Delete a document](https://www.npmjs.com/package/mongodb#delete-a-document)
+- [Find All Documents](https://www.npmjs.com/package/mongodb#find-all-documents) 
 
 !SLIDE mongo
 
@@ -2614,6 +2708,7 @@ db.myNewCollection1.insert( { x: 1 } )
 
 - [MongoDb Tutorial](http://codehero.co/series/mongodb-desde-cero.html)
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
+- [SQL to MongoDB Mapping Chart](https://docs.mongodb.com/manual/reference/sql-comparison/)
 
 !SLIDE mongo stack1
 
