@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&be28515d0399">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&37ae6706a884">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?598625fc6437">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?fc5c6cc7b4d4">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ce9bc5f56da9">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?f63043915c38">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?1a8b427f0acf">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?d1fbf705f630">
 	
-		<link rel="stylesheet" href="css/styles.css?f24c71bacf31">
+		<link rel="stylesheet" href="css/styles.css?2cd3d88ec8f9">
 	
-		<link rel="stylesheet" href="css/print.css?1010caba08b1">
+		<link rel="stylesheet" href="css/print.css?4c699b855d5c">
 	
 </head>
 <body class="list">
@@ -2984,7 +2984,7 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	</div></section>
 	
 	<section class="slide mongo smallcode" ><div>
-		<h2>Mongo &amp; Node</h2>
+		<h2><a href="https://docs.mongodb.com/getting-started/node/">Mongo &amp; Node</a></h2>
 <ul>
 <li><a href="https://www.npmjs.com/package/mongodb"><code>mongodb</code></a> </li>
 </ul>
@@ -3002,10 +3002,112 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<section class="slide mongo smallcode" ><div>
 		<h2>Mongo &amp; Node</h2>
 <ul>
-<li><a href="https://www.npmjs.com/package/mongodb#inserting-a-document">Inserting documents</a> </li>
-<li><a href="https://www.npmjs.com/package/mongodb#updating-a-document">Updating documents</a></li>
-<li><a href="https://www.npmjs.com/package/mongodb#delete-a-document">Delete a document</a></li>
-<li><a href="https://www.npmjs.com/package/mongodb#find-all-documents">Find All Documents</a> </li>
+<li><a href="https://docs.mongodb.com/getting-started/node/query/">Find or Query Data</a> <a href="https://www.npmjs.com/package/mongodb#find-all-documents">[1]</a> <ul>
+<li>return <a href="https://mongodb.github.io/node-mongodb-native/api-generated/cursor.html#cursor">cursor</a> where we can apply <a href="https://docs.mongodb.com/manual/reference/method/js-cursor/">lots of methods</a></li>
+<li><a href="https://mongodb.github.io/node-mongodb-native/api-generated/cursor.html#toarray"><code>toArray</code></a> to convert cursor into array of objects</li>
+</ul>
+</li>
+</ul>
+<pre><code>db.collection(&#39;restaurants&#39;)</code>
+<code>  .find( )</code>
+<code>  .forEach( (myDoc) =&gt; console.log (doc) );</code></pre><pre><code>db.collection(&#39;restaurants&#39;)</code>
+<code>  .find( )</code>
+<code>  .toArray( (err, docs) =&gt; console.log (docs) );</code></pre>
+	</div></section>
+	
+	<section class="slide mongo smallcode restaurants" ><div>
+		<pre><code>{</code>
+<code>      &quot;address&quot; : {</code>
+<code>         &quot;street&quot; : &quot;2 Avenue&quot;,</code>
+<code>         &quot;zipcode&quot; : &quot;10075&quot;,</code>
+<code>         &quot;building&quot; : &quot;1480&quot;,</code>
+<code>         &quot;coord&quot; : [ -73.9557413, 40.7720266 ]</code>
+<code>      },</code>
+<code>      &quot;borough&quot; : &quot;Manhattan&quot;,</code>
+<code>      &quot;cuisine&quot; : &quot;Italian&quot;,</code>
+<code>      &quot;grades&quot; : [</code>
+<code>         {</code>
+<code>            &quot;date&quot; : new Date(&quot;2014-10-01T00:00:00Z&quot;),</code>
+<code>            &quot;grade&quot; : &quot;A&quot;,</code>
+<code>            &quot;score&quot; : 11</code>
+<code>         },</code>
+<code>         {</code>
+<code>            &quot;date&quot; : new Date(&quot;2014-01-16T00:00:00Z&quot;),</code>
+<code>            &quot;grade&quot; : &quot;B&quot;,</code>
+<code>            &quot;score&quot; : 17</code>
+<code>         }</code>
+<code>      ],</code>
+<code>      &quot;name&quot; : &quot;Vella&quot;,</code>
+<code>      &quot;restaurant_id&quot; : &quot;41704620&quot;</code>
+<code>   }</code></pre>
+	</div></section>
+	
+	<section class="slide mongo smallcode" ><div>
+		<h2>Queries</h2>
+<pre><code>db.collection(&#39;restaurants&#39;)...</code>
+<code>  .find( )</code>
+<code>  .find( { &quot;borough&quot;: &quot;Manhattan&quot; } )</code>
+<code>  .find( { &quot;address.zipcode&quot;: &quot;10075&quot; } )</code>
+<code>  .find( { &quot;grades.grade&quot;: &quot;B&quot; } )</code>
+<code>  .find( { &quot;grades.score&quot;: { <mark>$gt</mark>: 30 } } ) // greater than</code>
+<code>  .find( { &quot;grades.score&quot;: { <mark>$lt</mark>: 10 } } ) // greater than</code>
+<code>  .find( { &quot;cuisine&quot;: &quot;Italian&quot;, &quot;address.zipcode&quot;: &quot;10075&quot; }) // AND</code>
+<code>  .find( { <mark>$or</mark>: [ </code>
+<code>    { &quot;cuisine&quot;: &quot;Italian&quot; }, </code>
+<code>    { &quot;address.zipcode&quot;: &quot;10075&quot; } </code>
+<code>  ]}) // OR</code>
+<code>  .find().sort( { &quot;borough&quot;: 1, &quot;address.zipcode&quot;: 1 } );</code></pre>
+	</div></section>
+	
+	<section class="slide mongo smallcode restaurants" ><div>
+		<pre><code>[...</code>
+<code>{</code>
+<code>   &quot;_id&quot; : 3,</code>
+<code>   &quot;name&quot; : &quot;ahn&quot;,</code>
+<code>   &quot;age&quot; : 22,</code>
+<code>   &quot;type&quot; : 2,</code>
+<code>   &quot;status&quot; : &quot;A&quot;,</code>
+<code>   &quot;favorites&quot; : { &quot;artist&quot; : &quot;Cassatt&quot;, &quot;food&quot; : &quot;cake&quot; },</code>
+<code>   &quot;finished&quot; : [ 6 ],</code>
+<code>   &quot;badges&quot; : [ &quot;blue&quot;, &quot;red&quot; ],</code>
+<code>   &quot;points&quot; : [ { &quot;points&quot; : 81, &quot;bonus&quot; : 8 }, { &quot;points&quot; : 55, &quot;bonus&quot; : 20 } ]</code>
+<code>}</code>
+<code>{</code>
+<code>   &quot;_id&quot; : 6,</code>
+<code>   &quot;name&quot; : &quot;abc&quot;,</code>
+<code>   &quot;age&quot; : 43,</code>
+<code>   &quot;type&quot; : 1,</code>
+<code>   &quot;status&quot; : &quot;A&quot;,</code>
+<code>   &quot;favorites&quot; : { &quot;food&quot; : &quot;pizza&quot;, &quot;artist&quot; : &quot;Picasso&quot; },</code>
+<code>   &quot;finished&quot; : [ 18, 12 ],</code>
+<code>   &quot;badges&quot; : [ &quot;black&quot;, &quot;blue&quot; ],</code>
+<code>   &quot;points&quot; : [ { &quot;points&quot; : 78, &quot;bonus&quot; : 8 }, { &quot;points&quot; : 57, &quot;bonus&quot; : 7 } ]</code>
+<code>}</code>
+<code>...]</code></pre>
+	</div></section>
+	
+	<section class="slide mongo smallcode" ><div>
+		<h2><a href="https://docs.mongodb.com/manual/tutorial/project-fields-from-query-results/">Projections</a></h2>
+<pre><code>db.collection(&#39;users&#39;)...</code>
+<code>  .find( { status: &quot;A&quot; } )</code>
+<code>  .find( { status: &quot;A&quot; }, { name: 1, status: 1 } )</code>
+<code>  .find( { status: &quot;A&quot; }, { name: 1, status: 1, _id: 0 } )</code>
+<code>  .find( { status: &quot;A&quot; }, { favorites: 0, points: 0 } ) // all but excluded</code>
+<code>  .find(</code>
+<code>     { status: &quot;A&quot; },</code>
+<code>     { name: 1, status: 1, &quot;favorites.food&quot;: 1 }</code>
+<code>  ) // Specific Fields in Embedded Documents</code></pre>
+	</div></section>
+	
+	<section class="slide mongo smallcode" ><div>
+		<h2>Mongo &amp; Node</h2>
+<ul>
+<li><a href="https://docs.mongodb.com/getting-started/node/insert/">Insert Data</a> <a href="https://www.npmjs.com/package/mongodb#inserting-a-document">[1]</a><ul>
+<li><a href="http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#insertOne"><code>insertOne</code></a> | <a href="http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#insertMany"><code>insertMany</code></a></li>
+</ul>
+</li>
+<li><a href="https://docs.mongodb.com/getting-started/node/update/">Update Data</a> <a href="https://www.npmjs.com/package/mongodb#updating-a-document">[1]</a></li>
+<li><a href="https://docs.mongodb.com/getting-started/node/remove/">Remove Data</a> <a href="https://www.npmjs.com/package/mongodb#delete-a-document">[1]</a></li>
 </ul>
 
 	</div></section>
@@ -3021,7 +3123,10 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<section class="slide mongo" ><div>
 		<h2>Data Modeling</h2>
 <ul>
-<li><a href="https://docs.mongodb.com/manual/core/data-modeling-introduction/">Data Models</a></li>
+<li><a href="https://docs.mongodb.com/manual/data-modeling/">Data Models</a><ul>
+<li><a href="https://docs.mongodb.com/manual/core/data-modeling-introduction/">Intro</a> | <a href="https://docs.mongodb.com/manual/core/document-validation/">Validation</a> | <a href="https://docs.mongodb.com/manual/core/data-models/">Concepts</a> | <a href="https://docs.mongodb.com/manual/applications/data-models/">Examples &amp; Patterns</a></li>
+</ul>
+</li>
 <li><a href="http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650">SQL vs MongoDB</a></li>
 <li><a href="http://es.slideshare.net/friedo/data-modeling-examples">Real life examples</a> | <a href="https://docs.mongodb.com/ecosystem/use-cases/">Use Cases</a></li>
 </ul>
@@ -3109,9 +3214,9 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?71aeb8629206"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?cd34f4ef62e4"></script>
 	
-		<script src="js/main.js?e7e7b8e38d04"></script>
+		<script src="js/main.js?001cd699599c"></script>
 	
 
 	
