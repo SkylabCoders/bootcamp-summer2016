@@ -2807,6 +2807,12 @@ db.collection('users')...
 
 - Do the coding exercises suggested at the NodeSchool workshop: https://github.com/evanlucas/learnyoumongo
 
+!SLIDE mongo exercise
+
+## <span class="icon-laptop"></span> API w/ Mongo Exercises
+
+Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/master/03-mongo-exercises
+
 !SLIDE mongo
 
 ## Data Modeling
