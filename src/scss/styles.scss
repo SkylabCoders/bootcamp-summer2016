@@ -29,6 +29,13 @@ $color-mongo: #449945;
 
 $color-sass: #c6538c;
 
+.mongo.restaurants.smallcode > div {
+	top:-40px !important;
+	pre code {
+		font-size: 16px;
+	}
+}
+
 .mongo.update img, .mongo.remove img {
     width: 920px;
     margin-left: -60px;

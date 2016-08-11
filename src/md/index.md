@@ -2660,7 +2660,7 @@ var mydoc = {
 
 !SLIDE mongo smallcode
 
-## Mongo & Node
+## [Mongo & Node](https://docs.mongodb.com/getting-started/node/)
 
 - [`mongodb`](https://www.npmjs.com/package/mongodb) 
 
@@ -2680,10 +2680,126 @@ MongoClient.connect(url, function(err, db) {
 
 ## Mongo & Node
 
-- [Inserting documents](https://www.npmjs.com/package/mongodb#inserting-a-document) 
-- [Updating documents](https://www.npmjs.com/package/mongodb#updating-a-document)
-- [Delete a document](https://www.npmjs.com/package/mongodb#delete-a-document)
-- [Find All Documents](https://www.npmjs.com/package/mongodb#find-all-documents) 
+- [Find or Query Data](https://docs.mongodb.com/getting-started/node/query/) [[1]](https://www.npmjs.com/package/mongodb#find-all-documents) 
+  - return [cursor](https://mongodb.github.io/node-mongodb-native/api-generated/cursor.html#cursor) where we can apply [lots of methods](https://docs.mongodb.com/manual/reference/method/js-cursor/)
+  - [`toArray`](https://mongodb.github.io/node-mongodb-native/api-generated/cursor.html#toarray) to convert cursor into array of objects
+
+```
+db.collection('restaurants')
+  .find( )
+  .forEach( (myDoc) => console.log (doc) );
+```
+
+```
+db.collection('restaurants')
+  .find( )
+  .toArray( (err, docs) => console.log (docs) );
+```
+
+!SLIDE mongo smallcode restaurants
+
+```
+{
+      "address" : {
+         "street" : "2 Avenue",
+         "zipcode" : "10075",
+         "building" : "1480",
+         "coord" : [ -73.9557413, 40.7720266 ]
+      },
+      "borough" : "Manhattan",
+      "cuisine" : "Italian",
+      "grades" : [
+         {
+            "date" : new Date("2014-10-01T00:00:00Z"),
+            "grade" : "A",
+            "score" : 11
+         },
+         {
+            "date" : new Date("2014-01-16T00:00:00Z"),
+            "grade" : "B",
+            "score" : 17
+         }
+      ],
+      "name" : "Vella",
+      "restaurant_id" : "41704620"
+   }
+```
+
+!SLIDE mongo smallcode
+
+## Queries
+
+```
+db.collection('restaurants')...
+  .find( )
+  .find( { "borough": "Manhattan" } )
+  .find( { "address.zipcode": "10075" } )
+  .find( { "grades.grade": "B" } )
+  .find( { "grades.score": { @@$gt@@: 30 } } ) // greater than
+  .find( { "grades.score": { @@$lt@@: 10 } } ) // greater than
+  .find( { "cuisine": "Italian", "address.zipcode": "10075" }) // AND
+  .find( { @@$or@@: [ 
+    { "cuisine": "Italian" }, 
+    { "address.zipcode": "10075" } 
+  ]}) // OR
+  .find().sort( { "borough": 1, "address.zipcode": 1 } );
+
+```
+
+!SLIDE mongo smallcode restaurants
+
+```
+[...
+{
+   "_id" : 3,
+   "name" : "ahn",
+   "age" : 22,
+   "type" : 2,
+   "status" : "A",
+   "favorites" : { "artist" : "Cassatt", "food" : "cake" },
+   "finished" : [ 6 ],
+   "badges" : [ "blue", "red" ],
+   "points" : [ { "points" : 81, "bonus" : 8 }, { "points" : 55, "bonus" : 20 } ]
+}
+{
+   "_id" : 6,
+   "name" : "abc",
+   "age" : 43,
+   "type" : 1,
+   "status" : "A",
+   "favorites" : { "food" : "pizza", "artist" : "Picasso" },
+   "finished" : [ 18, 12 ],
+   "badges" : [ "black", "blue" ],
+   "points" : [ { "points" : 78, "bonus" : 8 }, { "points" : 57, "bonus" : 7 } ]
+}
+...]
+```
+
+!SLIDE mongo smallcode
+
+## [Projections](https://docs.mongodb.com/manual/tutorial/project-fields-from-query-results/)
+
+```
+db.collection('users')...
+  .find( { status: "A" } )
+  .find( { status: "A" }, { name: 1, status: 1 } )
+  .find( { status: "A" }, { name: 1, status: 1, _id: 0 } )
+  .find( { status: "A" }, { favorites: 0, points: 0 } ) // all but excluded
+  .find(
+     { status: "A" },
+     { name: 1, status: 1, "favorites.food": 1 }
+  ) // Specific Fields in Embedded Documents
+```
+
+
+!SLIDE mongo smallcode
+
+## Mongo & Node
+
+- [Insert Data](https://docs.mongodb.com/getting-started/node/insert/) [[1]](https://www.npmjs.com/package/mongodb#inserting-a-document)
+  - [`insertOne`](http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#insertOne) | [`insertMany`](http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#insertMany)
+- [Update Data](https://docs.mongodb.com/getting-started/node/update/) [[1]](https://www.npmjs.com/package/mongodb#updating-a-document)
+- [Remove Data](https://docs.mongodb.com/getting-started/node/remove/) [[1]](https://www.npmjs.com/package/mongodb#delete-a-document)
 
 !SLIDE mongo exercise
 
@@ -2695,7 +2811,8 @@ MongoClient.connect(url, function(err, db) {
 
 ## Data Modeling
 
-- [Data Models](https://docs.mongodb.com/manual/core/data-modeling-introduction/)
+- [Data Models](https://docs.mongodb.com/manual/data-modeling/)
+  - [Intro](https://docs.mongodb.com/manual/core/data-modeling-introduction/) | [Validation](https://docs.mongodb.com/manual/core/document-validation/) | [Concepts](https://docs.mongodb.com/manual/core/data-models/) | [Examples & Patterns](https://docs.mongodb.com/manual/applications/data-models/)
 - [SQL vs MongoDB](http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650)
 - [Real life examples](http://es.slideshare.net/friedo/data-modeling-examples) | [Use Cases](https://docs.mongodb.com/ecosystem/use-cases/)
 
