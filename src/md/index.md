@@ -2687,6 +2687,12 @@ MongoClient.connect(url, function(err, db) {
 
 !SLIDE mongo
 
+## <span class="icon-laptop"></span> Mongo NodeSchool Kata
+
+- Do the coding exercises suggested at the NodeSchool workshop: https://github.com/evanlucas/learnyoumongo
+
+!SLIDE mongo
+
 ## Data Modeling
 
 - [Data Models](https://docs.mongodb.com/manual/core/data-modeling-introduction/)
@@ -2706,6 +2712,7 @@ MongoClient.connect(url, function(err, db) {
 
 ## More resources for this Unit
 
+- Getting started w/ MongoDB [[1]](http://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-1--net-22879) [[2]](http://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-2--net-23636)
 - [MongoDb Tutorial](http://codehero.co/series/mongodb-desde-cero.html)
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
 - [SQL to MongoDB Mapping Chart](https://docs.mongodb.com/manual/reference/sql-comparison/)
