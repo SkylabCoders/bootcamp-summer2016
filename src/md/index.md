@@ -2685,7 +2685,7 @@ MongoClient.connect(url, function(err, db) {
 - [Delete a document](https://www.npmjs.com/package/mongodb#delete-a-document)
 - [Find All Documents](https://www.npmjs.com/package/mongodb#find-all-documents) 
 
-!SLIDE mongo
+!SLIDE mongo exercise
 
 ## <span class="icon-laptop"></span> Mongo NodeSchool Kata
 
