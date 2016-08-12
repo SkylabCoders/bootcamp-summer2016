@@ -2840,6 +2840,13 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
 - [SQL to MongoDB Mapping Chart](https://docs.mongodb.com/manual/reference/sql-comparison/)
 
+!SLIDE mongo exercise
+
+## <span class="icon-laptop"></span> Mongo Express TO-DO App
+
+- Improve your to-do app by persiting data in a mongoDB 
+
+
 !SLIDE mongo stack1
 
 ![MEAN stack scheme](img/mean-stack-scheme.png)
