@@ -2856,7 +2856,8 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [MongoDb Tutorial](http://codehero.co/series/mongodb-desde-cero.html)
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
 - [SQL to MongoDB Mapping Chart](https://docs.mongodb.com/manual/reference/sql-comparison/)
-- [**Reference Cards**](docs/ReferenceCards-Mongo.pdf)
+- [Deploy app w/ REST API (Express & Mongo) & Angular to Heroku](https://www.sitepoint.com/deploy-rest-api-in-30-mins-mlab-heroku/)
+- [User Authentication w/ MEAN Stack](https://www.sitepoint.com/user-authentication-mean-stack/)
 
 !SLIDE mongo exercise
 
