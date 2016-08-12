@@ -2518,7 +2518,15 @@ Create the site w/ Express explained at: https://github.com/juanmaguitar/node-ex
 
 - Do the coding exercises suggested at the NodeSchool workshop: https://github.com/azat-co/expressworks
 
-!SLIDE es2015 resources
+!SLIDE express resources
+
+## More resources for this unit
+  
+- [Best practices for Express apps](https://www.terlici.com/2014/08/25/best-practices-express-structure.html)
+- [Connecting and Working with MongoDB with Node & Express](https://www.terlici.com/2015/04/03/mongodb-node-express.html)
+
+
+!SLIDE express resources
 
 ## Starter projects
   
@@ -2833,19 +2841,28 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 
 !SLIDE mongo
 
+## Cheatsheets & Quick Guides
+
+- [Mongo Booklet](https://s3.amazonaws.com/info-mongodb-com/mongodb_qrc_booklet.pdf)
+- [Shell Cheat Sheet](http://www.mongodbspain.com/wp-content/uploads/2014/03/MongoDBSpain-CheetSheet.pdf) 
+- [Mongo CheatSheet](https://blog.codecentric.de/files/2012/12/MongoDB-CheatSheet-v1_0.pdf)
+- [CRUD Operations](http://proserge.kh.ua/coding/index.php/post/31/MongoDB+for+NodeJs+devs+week2%3A+CRUD)
+
+!SLIDE mongo
+
 ## More resources for this Unit
 
 - Getting started w/ MongoDB [[1]](http://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-1--net-22879) [[2]](http://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-2--net-23636)
 - [MongoDb Tutorial](http://codehero.co/series/mongodb-desde-cero.html)
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
 - [SQL to MongoDB Mapping Chart](https://docs.mongodb.com/manual/reference/sql-comparison/)
+- [**Reference Cards**](docs/ReferenceCards-Mongo.pdf)
 
 !SLIDE mongo exercise
 
 ## <span class="icon-laptop"></span> Mongo Express TO-DO App
 
 - Improve your to-do app by persiting data in a mongoDB 
-
 
 !SLIDE mongo stack1
 
