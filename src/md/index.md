@@ -1288,6 +1288,18 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 - [Try jQuery](http://try.jquery.com/levels/1/challenges/1) 
 - [jQuery Exercises](https://github.com/macloo/jquery_exercises)
 
+!SLIDE jquery smallcode
+
+## [HTTP Response Codes](http://www.restapitutorial.com/httpstatuscodes.html)
+
+- **1xx** Informational
+- **2xx** Success → `200 OK`, `201 Created` and `204 No Content`.
+- **3xx** Redirection → `301 Moved Permanently`, `304 Not Modified`.
+- **4xx** Client Error → `400 Bad Request`, `401 Unauthorized`, `403 Forbidden`, `404 Not Found`, `409 Conflict`. ​
+- **5xx** Server Error → `500 Internal Server Error`, `503 Service Unavailable`
+​
+
+
 !SLIDE jquery
 
 ## More resources for this Unit
@@ -2612,7 +2624,7 @@ $.ajax({
 - [User Authentication](http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/)
   - [w/ Middleware express-authentication](https://github.com/izaakschroeder/express-authentication)
   - [w/ JSON Web Tokens](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
-  - [**passport**](http://passportjs.org/docs/authenticate) | [w/ Passport](https://www.sitepoint.com/user-authentication-mean-stack/) [[1]](https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/)
+  - [**passport**](http://passportjs.org/docs/authenticate) | [w/ Passport](https://www.sitepoint.com/user-authentication-mean-stack/) [[1]](https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/) [[2]](http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/)
   - [w/ Passport & Orchestrate](https://www.ctl.io/developers/blog/post/build-user-authentication-with-node-js-express-passport-and-orchestrate)
 - [Authenticaton w/ Users & Roles](https://gist.github.com/danwit/e0a7c5ad57c9ce5659d2)
   - [Implement Access Control in Node.js](https://blog.nodeswat.com/implement-access-control-in-node-js-8567e7b484d1#.pkk681vm9)
@@ -2982,6 +2994,7 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [SQL to MongoDB Mapping Chart](https://docs.mongodb.com/manual/reference/sql-comparison/)
 - [Deploy app w/ REST API (Express & Mongo) & Angular to Heroku](https://www.sitepoint.com/deploy-rest-api-in-30-mins-mlab-heroku/)
 - [User Authentication w/ MEAN Stack](https://www.sitepoint.com/user-authentication-mean-stack/)
+  + [Store Passwords in DB](http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/)
 
 !SLIDE mongo exercise
 
