@@ -2281,6 +2281,39 @@ Do the following katas to assure the understanding of Promise
   - [`module.exports` & `exports`](https://www.sitepoint.com/understanding-module-exports-exports-node-js/) [[1]](https://datafull.co/p/cual-es-el-proposito-de-moduleexports-de-nodejs-y-como-usarlo)
   - [Modular apps w/ Node & Express](https://vimeo.com/56166857)
 
+!SLIDE node
+
+## [NPM](https://www.npmjs.com/)
+
+- [`package.json`](https://docs.npmjs.com/files/package.json)
+  + [interactive guide](http://browsenpm.org/package.json)
+  + [using `package.json`](https://docs.npmjs.com/getting-started/using-a-package.json)
+
+!SLIDE node smallcode
+
+```
+{
+  "name": "my-super-project",
+  "version": "1.0.0",
+  "description": "This is the best project in town",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-available-tasks": "^0.5.6"
+  },
+  "keywords": [],
+  "author": "JuanMa Garrido <JuanMa.Garrido@gmail.com>",
+  "license": "ISC"
+}
+
+```
+
+
 
 !SLIDE node
 
@@ -2315,9 +2348,6 @@ Do the following katas to assure the understanding of Promise
 <span class="fa fa-youtube"></span> [**Streams**](https://www.youtube.com/watch?v=UD2dZw9iHCc)  [[1](https://www.youtube.com/watch?v=GlybFFMXXmQ) [2](https://www.youtube.com/watch?v=E3tTzx0Qoj0) [3](https://www.youtube.com/watch?v=DvlCT0N7yQI) [4](https://www.youtube.com/watch?v=a8W90jDHSho)] [[1]](https://www.youtube.com/watch?v=OeqnIuTMod4)</br> 
 <span class="fa fa-vimeo"></span> [Understanding Streams](https://vimeo.com/47005357)  
 <span class="fa fa-slideshare"></span> Node Streams [[1]](http://es.slideshare.net/EyalV/nodejs-file-system-streams) [[2]](http://es.slideshare.net/kumatch1/learning-a-node-stream) [[3]](http://es.slideshare.net/kushallikhi/streams-in-node-js)
-
-
-
 
 !SLIDE node exercise
 
@@ -2472,6 +2502,100 @@ username=juanma
   - [_`secret`_](https://github.com/expressjs/session#secret) | [`name`](https://github.com/expressjs/session#name) | [`cookie`](https://github.com/expressjs/session#cookie)
 - [`cookie-parser`](https://github.com/expressjs/cookie-parser)
 - [Utilizar cookies de forma segura](http://expressjs.com/es/advanced/best-practice-security.html#utilizar-cookies-de-forma-segura)
+
+
+!SLIDE express
+
+## REST
+
+> @@REST is an architectural style@@ that helps create and organize a distributed system. It describes the web as a distributed hypermedia application whose linked resources communicate by exchanging @@representations of resource state@@.
+
+!SLIDE express
+
+## [HTTP & REST](http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340)
+
+- [HTTP methods](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) [[1]](http://www.restapitutorial.com/lessons/httpmethods.html) [[2]](http://restful-api-design.readthedocs.io/en/latest/methods.html)
+- [Demistifying REST](http://code.tutsplus.com/tutorials/demystifying-rest--pre-58000)
+- [RESTful API design](http://blog.apigee.com/detail/restful_api_design) [[1]](http://apigee.com/about/resources/webcasts/restful-api-design-second-edition)
+
+!SLIDE express smallcode
+
+## REST API Auth: [Basic Auth](https://en.wikipedia.org/wiki/Basic_access_authentication)
+
+```
+Header → Authorization: Basic {base64_encode(username:password)}
+```
+
+- [Examples](https://developer.atlassian.com/stash/docs/latest/how-tos/example-basic-authentication.html)
+- [Basic Auth w/ Postman](https://www.getpostman.com/docs/helpers#basic-auth)
+
+
+
+!SLIDE express smallcode
+
+```
+> echo "QWxhZGRpbjpPcGVuU2VzYW1l" | base64 --decode
+Aladdin:OpenSesame
+> echo -n "Aladdin:OpenSesame" | base64
+QWxhZGRpbjpPcGVuU2VzYW1l
+```
+
+```
+curl -D- \
+  -X GET https://api.cooldata.net/api/1/things \
+  -u Aladdin:OpenSesame \
+  -H "Content-Type: application/json"
+
+curl -D- \
+  -X GET https://api.cooldata.net/api/1/things \
+  -H "Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l" \ 
+  -H "Content-Type: application/json" 
+
+http -a username:password example.org
+
+```
+
+!SLIDE express smallcode
+
+```
+$.ajax({
+    url: 'https://api.cooldata.net/api/1/things',
+    method: 'GET',
+    crossDomain: true,
+    beforeSend: function ( xhr ) {
+        xhr.setRequestHeader( 
+          'Authorization', 
+          'Basic ' + Base64.encode( 'Aladdin:OpenSesame' ) 
+        );
+    },
+    success: function( data, txtStatus, xhr ) {
+        console.log( data );
+        console.log( xhr.status );
+    }
+});
+```
+
+
+!SLIDE express
+
+## OAuth
+
+
+> @@OAuth is an open authorization standard@@ used to provide @@secure client application access to server resources@@. 
+</br></br>
+> OAuth enables server owners to authorize access to the server resources without sharing credentials.
+
+
+!SLIDE express
+
+## REST API Auth: OAuth
+
+
+
+!SLIDE express
+
+## REST API Auth: Cookie
+
 
 !SLIDE express
 
@@ -2903,6 +3027,21 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 
 ![scrum workflow](img/scrum-overview-mark-hoogveld.jpg)
 
+
+!SLIDE projects
+
+## API's authentication
+
+!SLIDE projects
+
+## [S.O.L.I.D.]( https://en.wikipedia.org/wiki/SOLID_&#40;object-oriented_design&#41; )
+
+- [SOLID for Javascript ](http://thefullstack.xyz/solid-javascript/) [[1]](http://es.slideshare.net/martinlippert/why-solid-matters-even-for-javascript)
+  + [**S** → The Single Responsibility Principle](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/) [[1]](http://asanzdiego.blogspot.com.es/2013/02/el-principio-de-responsabilidad-unica.html)
+  + [**O** → The Open/Closed Principle](http://aspiringcraftsman.com/2011/12/19/solid-javascript-the-openclosed-principle/) [[1]](http://asanzdiego.blogspot.com.es/2013/08/el-principio-abierto-cerrado.html)
+  + [**L** → The Liskov Substitution Principle](http://aspiringcraftsman.com/2011/12/31/solid-javascript-the-liskov-substitution-principle/) [[1]](http://asanzdiego.blogspot.com.es/2013/09/principio-de-sustitucion-de-liskov.html)
+  + [**I** → The Interface Segregation Principle](http://aspiringcraftsman.com/2012/01/08/solid-javascript-the-interface-segregation-principle/) [[1]](http://asanzdiego.blogspot.com.es/2013/09/el-principio-de-segregacion-de-iterfaz.html)
+  + [**D** → The Dependency Inversion Principle](http://aspiringcraftsman.com/2012/01/22/solid-javascript-the-dependency-inversion-principle/) [[1]]()
 
 !SLIDE 
 
