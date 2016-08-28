@@ -8,17 +8,17 @@
 	<meta name="generator" content="https://github.com/sapegin/grunt-shower-markdown">
 	<link rel="stylesheet" href="themes/bright/styles/screen.css">
 	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&0facee46da9b">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&4acca01f080f">
 	
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?b079a1207b66">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?29425e984cd7">
 	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?c57404b893f7">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?3c523affbb94">
 	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?8e7cfc9cfadd">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css?1d66c2503d81">
 	
-		<link rel="stylesheet" href="css/styles.css?ed63af14b4a2">
+		<link rel="stylesheet" href="css/styles.css?d18c589ac3ca">
 	
-		<link rel="stylesheet" href="css/print.css?84208835223d">
+		<link rel="stylesheet" href="css/print.css?288ef8cc4b11">
 	
 </head>
 <body class="list">
@@ -1516,6 +1516,19 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 
 	</div></section>
 	
+	<section class="slide jquery smallcode" ><div>
+		<h2><a href="http://www.restapitutorial.com/httpstatuscodes.html">HTTP Response Codes</a></h2>
+<ul>
+<li><strong>1xx</strong> Informational</li>
+<li><strong>2xx</strong> Success → <code>200 OK</code>, <code>201 Created</code> and <code>204 No Content</code>.</li>
+<li><strong>3xx</strong> Redirection → <code>301 Moved Permanently</code>, <code>304 Not Modified</code>.</li>
+<li><strong>4xx</strong> Client Error → <code>400 Bad Request</code>, <code>401 Unauthorized</code>, <code>403 Forbidden</code>, <code>404 Not Found</code>, <code>409 Conflict</code>. ​</li>
+<li><strong>5xx</strong> Server Error → <code>500 Internal Server Error</code>, <code>503 Service Unavailable</code>
+​</li>
+</ul>
+
+	</div></section>
+	
 	<section class="slide jquery" ><div>
 		<h2>More resources for this Unit</h2>
 <ul>
@@ -2535,6 +2548,39 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	</div></section>
 	
 	<section class="slide node" ><div>
+		<h2><a href="https://www.npmjs.com/">NPM</a></h2>
+<ul>
+<li><a href="https://docs.npmjs.com/files/package.json"><code>package.json</code></a><ul>
+<li><a href="http://browsenpm.org/package.json">interactive guide</a></li>
+<li><a href="https://docs.npmjs.com/getting-started/using-a-package.json">using <code>package.json</code></a></li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide node smallcode" ><div>
+		<pre><code>{</code>
+<code>  &quot;name&quot;: &quot;my-super-project&quot;,</code>
+<code>  &quot;version&quot;: &quot;1.0.0&quot;,</code>
+<code>  &quot;description&quot;: &quot;This is the best project in town&quot;,</code>
+<code>  &quot;main&quot;: &quot;index.js&quot;,</code>
+<code>  &quot;scripts&quot;: {</code>
+<code>    &quot;start&quot;: &quot;node index&quot;</code>
+<code>  },</code>
+<code>  &quot;dependencies&quot;: {</code>
+<code>    &quot;grunt&quot;: &quot;~0.4.5&quot;</code>
+<code>  },</code>
+<code>  &quot;devDependencies&quot;: {</code>
+<code>    &quot;grunt-available-tasks&quot;: &quot;^0.5.6&quot;</code>
+<code>  },</code>
+<code>  &quot;keywords&quot;: [],</code>
+<code>  &quot;author&quot;: &quot;JuanMa Garrido &lt;JuanMa.Garrido@gmail.com&gt;&quot;,</code>
+<code>  &quot;license&quot;: &quot;ISC&quot;</code>
+<code>}</code></pre>
+	</div></section>
+	
+	<section class="slide node" ><div>
 		<h2>Contents</h2>
 <ul>
 <li><p><a href="https://github.com/juanmaguitar/apuntes-nodejs/blob/master/modulos/intro-modulos.md">Modules Node</a></p>
@@ -2767,6 +2813,88 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	</div></section>
 	
 	<section class="slide express" ><div>
+		<h2>REST</h2>
+<blockquote>
+<p><mark>REST is an architectural style</mark> that helps create and organize a distributed system. It describes the web as a distributed hypermedia application whose linked resources communicate by exchanging <mark>representations of resource state</mark>.</p>
+</blockquote>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2><a href="http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340">HTTP &amp; REST</a></h2>
+<ul>
+<li><a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">HTTP methods</a> <a href="http://www.restapitutorial.com/lessons/httpmethods.html">[1]</a> <a href="http://restful-api-design.readthedocs.io/en/latest/methods.html">[2]</a></li>
+<li><a href="http://code.tutsplus.com/tutorials/demystifying-rest--pre-58000">Demistifying REST</a></li>
+<li><a href="http://blog.apigee.com/detail/restful_api_design">RESTful API design</a> <a href="http://apigee.com/about/resources/webcasts/restful-api-design-second-edition">[1]</a></li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide express smallcode" ><div>
+		<h2>REST API Auth: <a href="https://en.wikipedia.org/wiki/Basic_access_authentication">Basic Auth</a></h2>
+<pre><code>Header → Authorization: Basic {base64_encode(username:password)}</code></pre><ul>
+<li><a href="https://developer.atlassian.com/stash/docs/latest/how-tos/example-basic-authentication.html">Examples</a></li>
+<li><a href="https://www.getpostman.com/docs/helpers#basic-auth">Basic Auth w/ Postman</a></li>
+</ul>
+
+	</div></section>
+	
+	<section class="slide express smallcode" ><div>
+		<pre><code>&gt; echo &quot;QWxhZGRpbjpPcGVuU2VzYW1l&quot; | base64 --decode</code>
+<code>Aladdin:OpenSesame</code>
+<code>&gt; echo -n &quot;Aladdin:OpenSesame&quot; | base64</code>
+<code>QWxhZGRpbjpPcGVuU2VzYW1l</code></pre><pre><code>curl -D- \</code>
+<code>  -X GET https://api.cooldata.net/api/1/things \</code>
+<code>  -u Aladdin:OpenSesame \</code>
+<code>  -H &quot;Content-Type: application/json&quot;</code>
+<code>&shy;</code>
+<code>curl -D- \</code>
+<code>  -X GET https://api.cooldata.net/api/1/things \</code>
+<code>  -H &quot;Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l&quot; \ </code>
+<code>  -H &quot;Content-Type: application/json&quot; </code>
+<code>&shy;</code>
+<code>http -a username:password example.org</code></pre>
+	</div></section>
+	
+	<section class="slide express smallcode" ><div>
+		<pre><code>$.ajax({</code>
+<code>    url: &#39;https://api.cooldata.net/api/1/things&#39;,</code>
+<code>    method: &#39;GET&#39;,</code>
+<code>    crossDomain: true,</code>
+<code>    beforeSend: function ( xhr ) {</code>
+<code>        xhr.setRequestHeader( </code>
+<code>          &#39;Authorization&#39;, </code>
+<code>          &#39;Basic &#39; + Base64.encode( &#39;Aladdin:OpenSesame&#39; ) </code>
+<code>        );</code>
+<code>    },</code>
+<code>    success: function( data, txtStatus, xhr ) {</code>
+<code>        console.log( data );</code>
+<code>        console.log( xhr.status );</code>
+<code>    }</code>
+<code>});</code></pre>
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2>OAuth</h2>
+<blockquote>
+<p><mark>OAuth is an open authorization standard</mark> used to provide <mark>secure client application access to server resources</mark>. 
+</br></br>
+OAuth enables server owners to authorize access to the server resources without sharing credentials.</p>
+</blockquote>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2>REST API Auth: OAuth</h2>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
+		<h2>REST API Auth: Cookie</h2>
+
+	</div></section>
+	
+	<section class="slide express" ><div>
 		<h2>Contents</h2>
 <ul>
 <li><a href="http://www.hacksparrow.com/post-get-request-handling-in-node-js-express.html">POST/GET management</a> <a href="https://datafull.co/p/como-obtener-consulta-post-en-nodejs-express">[1]</a></li>
@@ -2782,7 +2910,7 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 <li><a href="http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/">User Authentication</a><ul>
 <li><a href="https://github.com/izaakschroeder/express-authentication">w/ Middleware express-authentication</a></li>
 <li><a href="https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens">w/ JSON Web Tokens</a></li>
-<li><a href="http://passportjs.org/docs/authenticate"><strong>passport</strong></a> | <a href="https://www.sitepoint.com/user-authentication-mean-stack/">w/ Passport</a> <a href="https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/">[1]</a></li>
+<li><a href="http://passportjs.org/docs/authenticate"><strong>passport</strong></a> | <a href="https://www.sitepoint.com/user-authentication-mean-stack/">w/ Passport</a> <a href="https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/">[1]</a> <a href="http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/">[2]</a></li>
 <li><a href="https://www.ctl.io/developers/blog/post/build-user-authentication-with-node-js-express-passport-and-orchestrate">w/ Passport &amp; Orchestrate</a></li>
 </ul>
 </li>
@@ -3149,12 +3277,24 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	</div></section>
 	
 	<section class="slide mongo" ><div>
+		<blockquote>
+<p><a href="http://mongoosejs.com/">Mongoose</a>  is an object modeling package for Node that essentially works like an ORM</p>
+</blockquote>
+
+	</div></section>
+	
+	<section class="slide mongo" ><div>
 		<h2><a href="http://mongoosejs.com/">Mongoose</a></h2>
 <ul>
 <li><a href="http://learnmongodbthehardway.com/schema/chapter1/">Schema</a><ul>
 <li><a href="http://learnmongodbthehardway.com/schema/chapter2/">Basics</a></li>
 <li><a href="https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/">Referencing schemas in properties</a></li>
 <li><a href="http://mongoosejs.com/docs/2.7.x/docs/methods-statics.html">Methods</a></li>
+</ul>
+</li>
+<li><a href="http://theholmesoffice.com/mongoose-connection-best-practice/">Mongoose Connection best practice</a> | <a href="https://github.com/simonholmes/mongoose-default-connection"><em>code</em></a></li>
+<li><a href="https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications">Node &amp; Mongo w/ Mongoose</a><ul>
+<li><a href="https://github.com/alexmingoia/mongoose-express-router"><code>mongoose-express-router</code></a></li>
 </ul>
 </li>
 </ul>
@@ -3180,7 +3320,10 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 <li><a href="https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/">Tips and Tricks</a></li>
 <li><a href="https://docs.mongodb.com/manual/reference/sql-comparison/">SQL to MongoDB Mapping Chart</a></li>
 <li><a href="https://www.sitepoint.com/deploy-rest-api-in-30-mins-mlab-heroku/">Deploy app w/ REST API (Express &amp; Mongo) &amp; Angular to Heroku</a></li>
-<li><a href="https://www.sitepoint.com/user-authentication-mean-stack/">User Authentication w/ MEAN Stack</a></li>
+<li><a href="https://www.sitepoint.com/user-authentication-mean-stack/"><strong>User Authentication w/ MEAN Stack</strong></a><ul>
+<li><a href="http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/">Store Passwords in DB</a> | <a href="https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens">JSON Web Tokens</a></li>
+</ul>
+</li>
 </ul>
 
 	</div></section>
@@ -3234,6 +3377,26 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 
 	</div></section>
 	
+	<section class="slide projects" ><div>
+		<h2>API&#39;s authentication</h2>
+
+	</div></section>
+	
+	<section class="slide projects" ><div>
+		<h2><a href="https://en.wikipedia.org/wiki/SOLID_&#40;object-oriented_design&#41;">S.O.L.I.D.</a></h2>
+<ul>
+<li><a href="http://thefullstack.xyz/solid-javascript/">SOLID for Javascript </a> <a href="http://es.slideshare.net/martinlippert/why-solid-matters-even-for-javascript">[1]</a><ul>
+<li><a href="http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/"><strong>S</strong> → The Single Responsibility Principle</a> <a href="http://asanzdiego.blogspot.com.es/2013/02/el-principio-de-responsabilidad-unica.html">[1]</a></li>
+<li><a href="http://aspiringcraftsman.com/2011/12/19/solid-javascript-the-openclosed-principle/"><strong>O</strong> → The Open/Closed Principle</a> <a href="http://asanzdiego.blogspot.com.es/2013/08/el-principio-abierto-cerrado.html">[1]</a></li>
+<li><a href="http://aspiringcraftsman.com/2011/12/31/solid-javascript-the-liskov-substitution-principle/"><strong>L</strong> → The Liskov Substitution Principle</a> <a href="http://asanzdiego.blogspot.com.es/2013/09/principio-de-sustitucion-de-liskov.html">[1]</a></li>
+<li><a href="http://aspiringcraftsman.com/2012/01/08/solid-javascript-the-interface-segregation-principle/"><strong>I</strong> → The Interface Segregation Principle</a> <a href="http://asanzdiego.blogspot.com.es/2013/09/el-principio-de-segregacion-de-iterfaz.html">[1]</a></li>
+<li><a href="http://aspiringcraftsman.com/2012/01/22/solid-javascript-the-dependency-inversion-principle/"><strong>D</strong> → The Dependency Inversion Principle</a> <a href="">[1]</a></li>
+</ul>
+</li>
+</ul>
+
+	</div></section>
+	
 	<section class="slide " ><div>
 		<h2>General Resources</h2>
 <ul>
@@ -3250,9 +3413,9 @@ A flex container <mark>expands items to fill available free space</mark>, or <ma
 	<script src="shower/shower.min.js"></script>
 
 	
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js?cb0305cc323b"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js?9591f9bb0b0e"></script>
 	
-		<script src="js/main.js?5649e61b04b9"></script>
+		<script src="js/main.js?f5039d8a735d"></script>
 	
 
 	
