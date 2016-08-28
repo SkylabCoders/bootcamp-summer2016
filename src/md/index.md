@@ -2966,6 +2966,13 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [SQL vs MongoDB](http://code.tutsplus.com/articles/mapping-relational-databases-and-sql-to-mongodb--net-35650)
 - [Real life examples](http://es.slideshare.net/friedo/data-modeling-examples) | [Use Cases](https://docs.mongodb.com/ecosystem/use-cases/)
 
+
+!SLIDE mongo
+
+
+> [Mongoose](http://mongoosejs.com/)  is an object modeling package for Node that essentially works like an ORM
+
+
 !SLIDE mongo
 
 ## [Mongoose](http://mongoosejs.com/) 
@@ -2974,6 +2981,9 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
   * [Basics](http://learnmongodbthehardway.com/schema/chapter2/)
   * [Referencing schemas in properties](https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/)
   * [Methods](http://mongoosejs.com/docs/2.7.x/docs/methods-statics.html)
+- [Mongoose Connection best practice](http://theholmesoffice.com/mongoose-connection-best-practice/) | [_code_](https://github.com/simonholmes/mongoose-default-connection)
+- [Node & Mongo w/ Mongoose](https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications)
+  + [`mongoose-express-router`](https://github.com/alexmingoia/mongoose-express-router)
 
 !SLIDE mongo
 
@@ -2993,8 +3003,8 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [Tips and Tricks](https://www.safaribooksonline.com/library/view/50-tips-and/9781449306779/)
 - [SQL to MongoDB Mapping Chart](https://docs.mongodb.com/manual/reference/sql-comparison/)
 - [Deploy app w/ REST API (Express & Mongo) & Angular to Heroku](https://www.sitepoint.com/deploy-rest-api-in-30-mins-mlab-heroku/)
-- [User Authentication w/ MEAN Stack](https://www.sitepoint.com/user-authentication-mean-stack/)
-  + [Store Passwords in DB](http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/)
+- [**User Authentication w/ MEAN Stack**](https://www.sitepoint.com/user-authentication-mean-stack/)
+  + [Store Passwords in DB](http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/) | [JSON Web Tokens](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 
 !SLIDE mongo exercise
 

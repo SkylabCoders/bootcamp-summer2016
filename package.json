@@ -18,7 +18,8 @@
   },
   "devDependencies": {
     "grunt-available-tasks": "^0.5.6",
-    "grunt-gh-pages": "^0.10.0"
+    "grunt-gh-pages": "^0.10.0",
+    "grunt-push": "^0.1.1"
   },
   "scripts": {
     "test": "echo 'this is a test script from npm package.json'"
