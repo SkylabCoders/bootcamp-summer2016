@@ -2630,6 +2630,15 @@ $.ajax({
   - [Implement Access Control in Node.js](https://blog.nodeswat.com/implement-access-control-in-node-js-8567e7b484d1#.pkk681vm9)
   - [Gandalf](https://github.com/PatrickHeneise/Gandalf)
 
+!SLIDE express
+
+## API Test
+
+* App (testing mode) connector → [**`supertest`**](https://www.npmjs.com/package/supertest) [[1]](https://www.codementor.io/nodejs/tutorial/testing-express-apis-with-supertest) [[2]](https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/) [[3]](http://willi.am/node-mocha-supertest/)
+*  Assertions → [`mocha`](http://mochajs.org/) [[1]](http://webapplog.com/tdd/) [[2]](http://willi.am/node-mocha-supertest/)
+*  Assertions → [`tape`](https://github.com/substack/tape) [[1]](http://www.macwright.org/2014/03/11/tape-is-cool.html) [[2]](https://ponyfoo.com/articles/testing-javascript-modules-with-tape)
+*  Test Runner → [`tap`](https://www.npmjs.com/package/tap) [[1]](http://www.node-tap.org/basics/)
+
 !SLIDE express exercise
 
 ## <span class="icon-laptop"></span> Simple Site w/ Express 
@@ -2984,6 +2993,7 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [Mongoose Connection best practice](http://theholmesoffice.com/mongoose-connection-best-practice/) | [_code_](https://github.com/simonholmes/mongoose-default-connection)
 - [Node & Mongo w/ Mongoose](https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications)
   + [`mongoose-express-router`](https://github.com/alexmingoia/mongoose-express-router)
+- Troubleshooting: [[1]](http://stackoverflow.com/questions/10547118/why-does-mongoose-always-add-an-s-to-the-end-of-my-collection-name)
 
 !SLIDE mongo
 
