@@ -1315,6 +1315,8 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 
 ## Public API's
 
+[**What is an API? In English, please.**](https://medium.freecodecamp.com/what-is-an-api-in-english-please-b880a3214a82#.s2eyo018j)
+
 - [API Directory](http://www.programmableweb.com/apis/directory)
 - [Lyrics Wikia API](http://lyric-api.herokuapp.com/api) [[1]](http://lyric-api.herokuapp.com/api/find/John%20Lennon/Imagine) [[2]](http://lyric-api.herokuapp.com/api/find/The%20Beatles/Get%20Back)
 - [Google API's](https://developers.google.com/api-client-library/javascript/start/start-js)
