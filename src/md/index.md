@@ -107,6 +107,7 @@ by [JuanMa Garrido](#trainer)
 - [**Cmder**](http://cmder.net/) => Command line for Windows Users
   - [Guide for setting up Sublime](http://laravel.io/forum/02-24-2014-a-neat-way-integrate-cmder-and-sublime-text-seamlessly) 
   - [Sublime 3 Portable](https://download.sublimetext.com/Sublime%20Text%20Build%203083.zip) 
+  - Use `bash` to enter into _UNIX mode_
 
 
 - [**Learn the Command Line** | codeCademy](https://www.codecademy.com/learn/learn-the-command-line)
@@ -1400,6 +1401,7 @@ Group yourself in pairs an do the following exercises http://jqexercise.droppage
 
 ## More resources for this Unit
 
+- [Design Decisions in AngularJS](https://www.youtube.com/watch?v=HCR7i5F5L8c)
 - [5 practical examples](http://tutorialzine.com/2013/08/learn-angularjs-5-examples/)
 - [AngularJS Fundamentals In 60-ish Minutes](http://www.slant.co/topics/760/viewpoints/13/~resources-to-learn-angularjs~angularjs-fundamentals-in-60-ish-minutes-video)
 - [Learn Angular | codeCademy](https://www.codecademy.com/learn/learn-angularjs)
@@ -2529,6 +2531,7 @@ username=juanma
 - [HTTP methods](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) [[1]](http://www.restapitutorial.com/lessons/httpmethods.html) [[2]](http://restful-api-design.readthedocs.io/en/latest/methods.html)
 - [Demistifying REST](http://code.tutsplus.com/tutorials/demystifying-rest--pre-58000)
 - [RESTful API design](http://blog.apigee.com/detail/restful_api_design) [[1]](http://apigee.com/about/resources/webcasts/restful-api-design-second-edition)
+- [How I Explained REST to My Wife](http://www.looah.com/source/view/2284)
 
 !SLIDE express smallcode
 
@@ -2632,6 +2635,13 @@ $.ajax({
 
 !SLIDE express
 
+## Authentication
+
+- [Authentication & Access Control in AngularJS](https://docs.google.com/presentation/d/1dceqxHVLP251cOQvBh3gOrAO_G2c6W9lQ6J2JCaO1d0/edit#slide=id.g1ca5cff0a_016)
+- [Techniques for authentication in AngularJS applications](https://medium.com/opinionated-angularjs/techniques-for-authentication-in-angularjs-applications-7bbf0346acec#.osi14fkw5)
+
+!SLIDE express
+
 ## API Test
 
 * App (testing mode) connector → [**`supertest`**](https://www.npmjs.com/package/supertest) [[1]](https://www.codementor.io/nodejs/tutorial/testing-express-apis-with-supertest) [[2]](https://codeforgeek.com/2015/07/unit-testing-nodejs-application-using-mocha/) [[3]](http://willi.am/node-mocha-supertest/)
@@ -2667,6 +2677,7 @@ Create the site w/ Express explained at: https://github.com/juanmaguitar/node-ex
 
 ## More resources for this unit
   
+- [Node.js & Express Basics](https://www.youtube.com/watch?v=65a5QQ3ZR2g&list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR)
 - [Best practices for Express apps](https://www.terlici.com/2014/08/25/best-practices-express-structure.html)
 - [Connecting and Working with MongoDB with Node & Express](https://www.terlici.com/2015/04/03/mongodb-node-express.html)
 
@@ -3084,4 +3095,5 @@ Do the followig exercises: https://github.com/juanmaguitar/node-exercises/tree/m
 - [How to keep up to date on: Frontend Technologies](http://uptodate.frontendrescue.org/)
 - [Smashing Magazine](http://www.smashingmagazine.com/)
 - [Awesome JavaScript](https://github.com/sorrycc/awesome-javascript)
+- [My journey to becoming a web developer from scratch](https://medium.com/@sgarcia.dev/my-journey-to-becoming-a-web-developer-from-scratch-without-a-cs-degree-2-years-later-and-what-i-4a7fd2ff5503#.oghxs14ok)
 
